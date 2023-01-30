@@ -1,0 +1,45 @@
+MDF Database:  version 1.0
+MDF_INFO | Exp1_201b299 | XA9536XL-15-VQ44
+MACROCELL | 1 | 10 | D_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 2 | B  | A
+INPUTP | 2 | 43 | 44
+EQ | 1 | 
+   D = B & A;
+
+MACROCELL | 0 | 8 | E_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 2 | B  | A
+INPUTP | 2 | 43 | 44
+EQ | 1 | 
+   !E = !B & !A;
+
+MACROCELL | 1 | 1 | G_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 2 | B  | A
+INPUTP | 2 | 43 | 44
+EQ | 2 | 
+   G = B
+	$ A;
+
+MACROCELL | 0 | 1 | C_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 1 | A
+INPUTP | 1 | 44
+EQ | 1 | 
+   C = !A;
+
+MACROCELL | 0 | 13 | F_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 2 | B  | A
+INPUTP | 2 | 43 | 44
+EQ | 1 | 
+   !F = B & A;
+
+PIN | B | 64 | 0 | N/A | 43 | 4 | 1 | 10 | 0 | 8 | 1 | 1 | 0 | 13
+PIN | A | 64 | 0 | N/A | 44 | 5 | 1 | 10 | 0 | 8 | 1 | 1 | 0 | 1 | 0 | 13
+PIN | D | 536871040 | 0 | N/A | 42
+PIN | E | 536871040 | 0 | N/A | 16
+PIN | G | 536871040 | 0 | N/A | 5
+PIN | C | 536871040 | 0 | N/A | 8
+PIN | F | 536871040 | 0 | N/A | 24
