@@ -1,0 +1,8 @@
+V3 3
+FL "//fileserver1/201b299/Coa/lab exp 2/exercise1_201b299/halfadder_201b299.vhd" 2023/01/24.15:40:05 M.53d
+EN work/halfadder_201b299 1674555005 \
+      FL "//fileserver1/201b299/Coa/lab exp 2/exercise1_201b299/halfadder_201b299.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/halfadder_201b299/Dataflow 1674555006 \
+      FL "//fileserver1/201b299/Coa/lab exp 2/exercise1_201b299/halfadder_201b299.vhd" \
+      EN work/halfadder_201b299 1674555005

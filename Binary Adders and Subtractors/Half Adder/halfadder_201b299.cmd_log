@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "N:/Coa/lab exp 2/exercise1_201b299/halfadder_201b299.xst" -ofn "N:/Coa/lab exp 2/exercise1_201b299/halfadder_201b299.syr" 
