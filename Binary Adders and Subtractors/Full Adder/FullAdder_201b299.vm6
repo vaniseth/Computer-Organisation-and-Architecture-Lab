@@ -1,0 +1,122 @@
+NDS Database:  version M.53d
+
+NDS_INFO | xa9500xl | A9536XL44VQ | XA9536XL-15-VQ44
+
+DEVICE | A9536XL | A9536XL44VQ | 
+
+NETWORK | FullAdder_201b299 | 0 | 0 | 16793607
+
+INPUT_INSTANCE | 0 | 0 | NULL | A_IBUF | FullAdder_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | A | 88 | PI | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | A_IBUF | 81 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | A_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | B_IBUF | FullAdder_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | B | 89 | PI | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | B_IBUF | 82 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | B_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | C_IBUF | FullAdder_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | C | 90 | PI | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | C_IBUF | 83 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | C_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | LowPow+OptxMapped | Carry_OBUF | FullAdder_201b299_COPY_0_COPY_0 | 2155872257 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_IBUF | 81 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | A_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C_IBUF | 83 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | C_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_IBUF | 82 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | B_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Carry_OBUF | 84 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | Carry_OBUF.Q | Carry_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Carry_OBUF.SI | Carry_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_IBUF | 81 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | A_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C_IBUF | 83 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | C_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_IBUF | 82 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | B_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Carry_OBUF.D1 | 92 | ? | 0 | 4096 | Carry_OBUF | NULL | NULL | Carry_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Carry_OBUF.D2 | 93 | ? | 0 | 4096 | Carry_OBUF | NULL | NULL | Carry_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | A_IBUF | IV_TRUE | B_IBUF
+SPPTERM | 2 | IV_TRUE | A_IBUF | IV_TRUE | C_IBUF
+SPPTERM | 2 | IV_TRUE | B_IBUF | IV_TRUE | C_IBUF
+
+SRFF_INSTANCE | Carry_OBUF.REG | Carry_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Carry_OBUF.D | 91 | ? | 0 | 0 | Carry_OBUF | NULL | NULL | Carry_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Carry_OBUF.Q | 94 | ? | 0 | 0 | Carry_OBUF | NULL | NULL | Carry_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+Inv+OptxMapped | Sum_OBUF | FullAdder_201b299_COPY_0_COPY_0 | 2155872513 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_IBUF | 81 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | A_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_IBUF | 82 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | B_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C_IBUF | 83 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | C_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Sum_OBUF | 85 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | Sum_OBUF.Q | Sum_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Sum_OBUF.SI | Sum_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_IBUF | 81 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | A_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_IBUF | 82 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | B_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C_IBUF | 83 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | C_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Sum_OBUF.D1 | 96 | ? | 0 | 4096 | Sum_OBUF | NULL | NULL | Sum_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | A_IBUF
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Sum_OBUF.D2 | 97 | ? | 0 | 4096 | Sum_OBUF | NULL | NULL | Sum_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | B_IBUF | IV_TRUE | C_IBUF
+SPPTERM | 2 | IV_FALSE | B_IBUF | IV_FALSE | C_IBUF
+
+SRFF_INSTANCE | Sum_OBUF.REG | Sum_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Sum_OBUF.D | 95 | ? | 0 | 0 | Sum_OBUF | NULL | NULL | Sum_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Sum_OBUF.Q | 98 | ? | 0 | 0 | Sum_OBUF | NULL | NULL | Sum_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | Carry | FullAdder_201b299_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Carry_OBUF | 84 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | Carry_OBUF.Q | Carry_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Carry | 86 | PO | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | Carry | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Sum | FullAdder_201b299_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Sum_OBUF | 85 | ? | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | Sum_OBUF.Q | Sum_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Sum | 87 | PO | 0 | 0 | FullAdder_201b299_COPY_0_COPY_0 | NULL | NULL | Sum | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | FullAdder_201b299_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | Sum_OBUF | 1 | NULL | 0 | Sum | 1 | 41 | 49152
+
+FB_INSTANCE | FOOBAR2_ | FullAdder_201b299_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | Carry_OBUF | 1 | NULL | 0 | Carry | 1 | 38 | 49152
+FBPIN | 8 | NULL | 0 | B_IBUF | 1 | NULL | 0 | 31 | 49152
+FBPIN | 9 | NULL | 0 | A_IBUF | 1 | NULL | 0 | 30 | 49152
+FBPIN | 11 | NULL | 0 | C_IBUF | 1 | NULL | 0 | 28 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | FullAdder_201b299_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 2 | B | 31 | 3 | C | 28 | 50 | A | 30
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | -1 | 38 | 39 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 36 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 2 | B | 31 | 3 | C | 28 | 50 | A | 30
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | 38 | 39 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 36 | -1 | -1 | -1
+

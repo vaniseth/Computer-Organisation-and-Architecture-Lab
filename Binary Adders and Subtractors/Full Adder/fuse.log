@@ -1,0 +1,24 @@
+Running: C:\Xilinx\12.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o N:/Coa/lab 2/exercise3_201b299/XOR_201b299/FullAdderTest_201b299_isim_beh.exe -prj N:/Coa/lab 2/exercise3_201b299/XOR_201b299/FullAdderTest_201b299_beh.prj work.FullAdderTest_201b299 
+ISim M.53d (signature 0x7dea747)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "N:/Coa/lab 2/exercise3_201b299/XOR_201b299/../FullAdder/XOR_201b299.vhd" into library work
+Parsing VHDL file "N:/Coa/lab 2/exercise3_201b299/XOR_201b299/../FullAdder/Or_201b299.vhd" into library work
+Parsing VHDL file "N:/Coa/lab 2/exercise3_201b299/XOR_201b299/../FullAdder/And_201b299.vhd" into library work
+Parsing VHDL file "N:/Coa/lab 2/exercise3_201b299/XOR_201b299/../FullAdder/FullAdder_201b299.vhd" into library work
+Parsing VHDL file "N:/Coa/lab 2/exercise3_201b299/XOR_201b299/../FullAdder/FullAdderTest_201b299.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Compiling architecture dataflow of entity xor_201b299 [xor_201b299_default]
+Compiling architecture dataflow of entity and_201b299 [and_201b299_default]
+Compiling architecture dataflow of entity or_201b299 [or_201b299_default]
+Compiling architecture structural of entity fulladder_201b299 [fulladder_201b299_default]
+Compiling architecture behavior of entity fulladdertest_201b299
+Time Resolution for simulation is 1ps.
+Compiled 11 VHDL Units
+Built simulation executable N:/Coa/lab 2/exercise3_201b299/XOR_201b299/FullAdderTest_201b299_isim_beh.exe
+Fuse Memory Usage: 18976 KB
+Fuse CPU Usage: 140 ms

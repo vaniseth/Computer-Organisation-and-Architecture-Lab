@@ -1,0 +1,4 @@
+work	"../FullAdder/And_201b299.vhd"
+work	"../FullAdder/FullAdder_201b299.vhd"
+work	"../FullAdder/Or_201b299.vhd"
+work	"../FullAdder/XOR_201b299.vhd"

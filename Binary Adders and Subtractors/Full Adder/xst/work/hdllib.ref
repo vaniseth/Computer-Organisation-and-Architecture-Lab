@@ -1,0 +1,8 @@
+AR and_201b299 dataflow "//fileserver1/201b299/Coa/lab 2/exercise3_201b299/FullAdder/And_201b299.vhd" sub00/vhpl03 1675159701
+AR xor_201b299 dataflow "//fileserver1/201b299/Coa/lab 2/exercise3_201b299/FullAdder/XOR_201b299.vhd" sub00/vhpl01 1675159699
+AR fulladder_201b299 structural "//fileserver1/201b299/Coa/lab 2/exercise3_201b299/FullAdder/FullAdder_201b299.vhd" sub00/vhpl07 1675159705
+EN and_201b299 NULL "//fileserver1/201b299/Coa/lab 2/exercise3_201b299/FullAdder/And_201b299.vhd" sub00/vhpl02 1675159700
+EN fulladder_201b299 NULL "//fileserver1/201b299/Coa/lab 2/exercise3_201b299/FullAdder/FullAdder_201b299.vhd" sub00/vhpl06 1675159704
+EN or_201b299 NULL "//fileserver1/201b299/Coa/lab 2/exercise3_201b299/FullAdder/Or_201b299.vhd" sub00/vhpl04 1675159702
+EN xor_201b299 NULL "//fileserver1/201b299/Coa/lab 2/exercise3_201b299/FullAdder/XOR_201b299.vhd" sub00/vhpl00 1675159698
+AR or_201b299 dataflow "//fileserver1/201b299/Coa/lab 2/exercise3_201b299/FullAdder/Or_201b299.vhd" sub00/vhpl05 1675159703
