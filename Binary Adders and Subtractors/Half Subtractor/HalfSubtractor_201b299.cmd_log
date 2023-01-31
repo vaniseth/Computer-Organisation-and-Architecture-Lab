@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.xst" -ofn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.syr" 
+vhdtdtfi -lib work HalfSubtractor_201b299.vhd -prj halfSubtractor_201b299 -o HalfSubtractor_201b299.spl -module HalfSubtractor_201b299 -template C:/Xilinx/12.1/ISE_DS/ISE/data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xa9500xl HalfSubtractor_201b299.spl {N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.sym} 
+vhdtdtfi -prj halfSubtractor_201b299 -o "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.vhi" -module HalfSubtractor_201b299 -template C:/Xilinx/12.1/ISE_DS/ISE/data/vhdlinst.tft -deleteonerror -lib work HalfSubtractor_201b299.vhd 
+xst -intstyle ise -ifn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.xst" -ofn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.xst" -ofn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.xst" -ofn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "HalfSubtractor_201b299.ngc" HalfSubtractor_201b299.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper HalfSubtractor_201b299.ngd 
+XSLTProcess HalfSubtractor_201b299_build.xml 
+tsim -intstyle ise HalfSubtractor_201b299 HalfSubtractor_201b299.nga 
+taengine -intstyle ise -f HalfSubtractor_201b299 -w --format html1 -l HalfSubtractor_201b299_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n HalfSubtractor_201b299 -i HalfSubtractor_201b299 
+xst -intstyle ise -ifn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.xst" -ofn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.xst" -ofn "N:/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.syr" 

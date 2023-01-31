@@ -1,0 +1,8 @@
+V3 3
+FL "//fileserver1/201b299/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.vhd" 2023/01/31.14:36:57 M.53d
+EN work/HalfSubtractor_201b299 1675156139 \
+      FL "//fileserver1/201b299/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/HalfSubtractor_201b299/Behavioral 1675156140 \
+      FL "//fileserver1/201b299/Coa/lab 2/exercise2_201b299/halfSubtractor_201b299/HalfSubtractor_201b299.vhd" \
+      EN work/HalfSubtractor_201b299 1675156139

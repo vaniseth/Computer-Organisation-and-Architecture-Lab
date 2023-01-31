@@ -1,0 +1,4 @@
+AUTO_TS_P2P:FROM:B:TO:Borrow:1
+AUTO_TS_P2P:FROM:A:TO:Borrow:1
+AUTO_TS_P2P:FROM:A:TO:Difference:1
+AUTO_TS_P2P:FROM:B:TO:Difference:1
