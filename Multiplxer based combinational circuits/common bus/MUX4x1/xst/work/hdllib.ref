@@ -1,0 +1,5 @@
+EN mux4x1 NULL "//fileserver1/201b299/Coa/lab 5/common bus/MUX4x1/mux4x1.vhd" sub00/vhpl00 1679390372
+AR mux4x1 behavioral "//fileserver1/201b299/Coa/lab 5/common bus/MUX4x1/mux4x1.vhd" sub00/vhpl01 1679388850
+EN commonbus NULL "//fileserver1/201b299/Coa/lab 5/common bus/MUX4x1/commonBus.vhd" sub00/vhpl02 1679390374
+AR commonbus behavioral "//fileserver1/201b299/Coa/lab 5/common bus/MUX4x1/commonBus.vhd" sub00/vhpl04 1679390375
+AR mux4x1 dataflow "//fileserver1/201b299/Coa/lab 5/common bus/MUX4x1/mux4x1.vhd" sub00/vhpl03 1679390373

@@ -1,0 +1,15 @@
+V3 7
+FL "//fileserver1/201b299/Coa/lab 5/common bus/MUX4x1/commonBus.vhd" 2023/03/21.14:47:06 M.53d
+EN work/commonBus 1679390374 \
+      FL "//fileserver1/201b299/Coa/lab 5/common bus/MUX4x1/commonBus.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/commonBus/Behavioral 1679390375 \
+      FL "//fileserver1/201b299/Coa/lab 5/common bus/MUX4x1/commonBus.vhd" \
+      EN work/commonBus 1679390374 CP Mux4x1
+FL "//fileserver1/201b299/Coa/lab 5/common bus/MUX4x1/mux4x1.vhd" 2023/03/21.14:47:06 M.53d
+EN work/mux4x1 1679390372 \
+      FL "//fileserver1/201b299/Coa/lab 5/common bus/MUX4x1/mux4x1.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/mux4x1/Dataflow 1679390373 \
+      FL "//fileserver1/201b299/Coa/lab 5/common bus/MUX4x1/mux4x1.vhd" \
+      EN work/mux4x1 1679390372

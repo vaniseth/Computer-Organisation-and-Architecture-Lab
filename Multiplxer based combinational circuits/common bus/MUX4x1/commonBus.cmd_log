@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "N:/Coa/lab 5/common bus/MUX4x1/commonBus.xst" -ofn "N:/Coa/lab 5/common bus/MUX4x1/commonBus.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "commonBus.ngc" commonBus.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper commonBus.ngd 
+XSLTProcess commonBus_build.xml 
+tsim -intstyle ise commonBus commonBus.nga 
+taengine -intstyle ise -f commonBus -w --format html1 -l commonBus_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n commonBus -i commonBus 
+hprep6 -s IEEE1149 -n commonBus -i commonBus 

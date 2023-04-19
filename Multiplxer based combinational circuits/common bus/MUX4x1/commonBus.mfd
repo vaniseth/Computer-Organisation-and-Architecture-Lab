@@ -1,0 +1,64 @@
+MDF Database:  version 1.0
+MDF_INFO | commonBus | XA9536XL-15-VQ44
+MACROCELL | 1 | 1 | Output_0_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 6 | Selection<1>  | Selection<0>  | B<0>  | C<0>  | A<0>  | D<0>
+INPUTP | 6 | 45 | 44 | 6 | 47 | 37 | 10
+EQ | 4 | 
+   Output<0> = Selection<1> & D<0> & Selection<0>
+	# Selection<1> & !Selection<0> & C<0>
+	# !Selection<1> & Selection<0> & B<0>
+	# !Selection<1> & !Selection<0> & A<0>;
+
+MACROCELL | 0 | 1 | Output_1_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 6 | Selection<1>  | Selection<0>  | B<1>  | C<1>  | A<1>  | D<1>
+INPUTP | 6 | 45 | 44 | 7 | 31 | 35 | 3
+EQ | 4 | 
+   Output<1> = Selection<1> & Selection<0> & D<1>
+	# Selection<1> & !Selection<0> & C<1>
+	# !Selection<1> & Selection<0> & B<1>
+	# !Selection<1> & !Selection<0> & A<1>;
+
+MACROCELL | 0 | 10 | Output_2_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 6 | Selection<1>  | Selection<0>  | B<2>  | C<2>  | A<2>  | D<2>
+INPUTP | 6 | 45 | 44 | 9 | 43 | 34 | 25
+EQ | 4 | 
+   Output<2> = Selection<1> & Selection<0> & D<2>
+	# Selection<1> & !Selection<0> & C<2>
+	# !Selection<1> & Selection<0> & B<2>
+	# !Selection<1> & !Selection<0> & A<2>;
+
+MACROCELL | 1 | 10 | Output_3_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 6 | Selection<1>  | Selection<0>  | B<3>  | C<3>  | A<3>  | D<3>
+INPUTP | 6 | 45 | 44 | 46 | 4 | 33 | 11
+EQ | 4 | 
+   Output<3> = Selection<1> & Selection<0> & D<3>
+	# Selection<1> & !Selection<0> & C<3>
+	# !Selection<1> & Selection<0> & B<3>
+	# !Selection<1> & !Selection<0> & A<3>;
+
+PIN | Selection<1> | 64 | 0 | N/A | 45 | 4 | 1 | 1 | 0 | 1 | 0 | 10 | 1 | 10
+PIN | D<0> | 64 | 0 | N/A | 10 | 1 | 1 | 1
+PIN | Selection<0> | 64 | 0 | N/A | 44 | 4 | 1 | 1 | 0 | 1 | 0 | 10 | 1 | 10
+PIN | C<0> | 64 | 0 | N/A | 47 | 1 | 1 | 1
+PIN | B<0> | 64 | 0 | N/A | 6 | 1 | 1 | 1
+PIN | A<0> | 64 | 0 | N/A | 37 | 1 | 1 | 1
+PIN | D<1> | 64 | 0 | N/A | 3 | 1 | 0 | 1
+PIN | C<1> | 64 | 0 | N/A | 31 | 1 | 0 | 1
+PIN | B<1> | 64 | 0 | N/A | 7 | 1 | 0 | 1
+PIN | A<1> | 64 | 0 | N/A | 35 | 1 | 0 | 1
+PIN | D<2> | 64 | 0 | N/A | 25 | 1 | 0 | 10
+PIN | C<2> | 64 | 0 | N/A | 43 | 1 | 0 | 10
+PIN | B<2> | 64 | 0 | N/A | 9 | 1 | 0 | 10
+PIN | A<2> | 64 | 0 | N/A | 34 | 1 | 0 | 10
+PIN | D<3> | 64 | 0 | N/A | 11 | 1 | 1 | 10
+PIN | C<3> | 64 | 0 | N/A | 4 | 1 | 1 | 10
+PIN | B<3> | 64 | 0 | N/A | 46 | 1 | 1 | 10
+PIN | A<3> | 64 | 0 | N/A | 33 | 1 | 1 | 10
+PIN | Output<0> | 536871040 | 0 | N/A | 5
+PIN | Output<1> | 536871040 | 0 | N/A | 8
+PIN | Output<2> | 536871040 | 0 | N/A | 18
+PIN | Output<3> | 536871040 | 0 | N/A | 42

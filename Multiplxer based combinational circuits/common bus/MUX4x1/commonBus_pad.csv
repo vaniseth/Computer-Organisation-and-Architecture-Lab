@@ -1,0 +1,73 @@
+Release 8.1i - Fit M.53d
+Copyright(c) 1995-2003 Xilinx Inc. All rights reserved
+
+ 3-21-2023  2:49PM
+
+NOTE: This file is designed to be imported into a spreadsheet program
+such as Microsoft Excel for viewing, printing and sorting. The comma ','
+character is used as the data field separator.
+This file is also designed to support parsing.
+
+Input file:  commonBus.ngd
+output file: commonBus_pad.csv
+Part type:   xa9536xl
+Speed grade: -15
+Package:     vq44
+
+Pinout by Pin Number:
+
+-----,-----,-----,-----,-----,-----,-----,-----,-----,-----,
+Pin Number,Signal Name,Pin Usage,Pin Name,Direction,IO Standard,IO Bank Number,{blank},Slew Rate,Termination,{blank},Voltage,Constraint,
+P1,TIE,,I/O/GCK3,,,,,,,,,,
+P2,TIE,,I/O,,,,,,,,,,
+P3,TIE,,I/O,,,,,,,,,,
+P4,GND,,GND,,,,,,,,,,
+P5,TIE,,I/O,,,,,,,,,,
+P6,TIE,,I/O,,,,,,,,,,
+P7,Output<2>,O,I/O,OUTPUT,,,,,,,,,
+P8,TIE,,I/O,,,,,,,,,,
+P9,TDI,,TDI,,,,,,,,,,
+P10,TMS,,TMS,,,,,,,,,,
+P11,TCK,,TCK,,,,,,,,,,
+P12,TIE,,I/O,,,,,,,,,,
+P13,TIE,,I/O,,,,,,,,,,
+P14,D<2>,I,I/O,INPUT,,,,,,,,,
+P15,VCC,,VCCINT,,,,,,,,,,
+P16,TIE,,I/O,,,,,,,,,,
+P17,GND,,GND,,,,,,,,,,
+P18,C<1>,I,I/O,INPUT,,,,,,,,,
+P19,TIE,,I/O,,,,,,,,,,
+P20,A<3>,I,I/O,INPUT,,,,,,,,,
+P21,A<2>,I,I/O,INPUT,,,,,,,,,
+P22,A<1>,I,I/O,INPUT,,,,,,,,,
+P23,A<0>,I,I/O,INPUT,,,,,,,,,
+P24,TDO,,TDO,,,,,,,,,,
+P25,GND,,GND,,,,,,,,,,
+P26,VCC,,VCCIO,,,,,,,,,,
+P27,TIE,,I/O,,,,,,,,,,
+P28,Output<3>,O,I/O,OUTPUT,,,,,,,,,
+P29,C<2>,I,I/O,INPUT,,,,,,,,,
+P30,Selection<0>,I,I/O,INPUT,,,,,,,,,
+P31,Selection<1>,I,I/O,INPUT,,,,,,,,,
+P32,B<3>,I,I/O,INPUT,,,,,,,,,
+P33,C<0>,I,I/O/GSR,INPUT,,,,,,,,,
+P34,TIE,,I/O/GTS2,,,,,,,,,,
+P35,VCC,,VCCINT,,,,,,,,,,
+P36,D<1>,I,I/O/GTS1,INPUT,,,,,,,,,
+P37,C<3>,I,I/O,INPUT,,,,,,,,,
+P38,Output<0>,O,I/O,OUTPUT,,,,,,,,,
+P39,B<0>,I,I/O,INPUT,,,,,,,,,
+P40,B<1>,I,I/O,INPUT,,,,,,,,,
+P41,Output<1>,O,I/O,OUTPUT,,,,,,,,,
+P42,B<2>,I,I/O,INPUT,,,,,,,,,
+P43,D<0>,I,I/O/GCK1,INPUT,,,,,,,,,
+P44,D<3>,I,I/O/GCK2,INPUT,,,,,,,,,
+
+To preserve the pinout above for future design iterations in
+Project Navigator simply execute the (Lock Pins) process
+located under the (Implement Design) process in a toolbox named
+(Optional Implementation Tools) or invoke PIN2UCF from the
+command line. The location constraints will be written into your
+specified UCF file
+
+
