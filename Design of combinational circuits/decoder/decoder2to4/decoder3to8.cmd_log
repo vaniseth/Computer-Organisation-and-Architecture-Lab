@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "N:/Coa/lab 4/decoder/decoder2to4/decoder3to8.xst" -ofn "N:/Coa/lab 4/decoder/decoder2to4/decoder3to8.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 4/decoder/decoder2to4/decoder3to8.xst" -ofn "N:/Coa/lab 4/decoder/decoder2to4/decoder3to8.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "decoder3to8.ngc" decoder3to8.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper decoder3to8.ngd 
+XSLTProcess decoder3to8_build.xml 
+tsim -intstyle ise decoder3to8 decoder3to8.nga 
+taengine -intstyle ise -f decoder3to8 -w --format html1 -l decoder3to8_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n decoder3to8 -i decoder3to8 
+hprep6 -s IEEE1149 -n decoder3to8 -i decoder3to8 

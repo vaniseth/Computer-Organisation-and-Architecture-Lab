@@ -1,0 +1,15 @@
+V3 7
+FL "//fileserver1/201b299/Coa/lab 4/decoder/decoder2to4/decoder2to4.vhd" 2023/03/14.15:05:23 M.53d
+EN work/decoder2to4 1678786551 \
+      FL "//fileserver1/201b299/Coa/lab 4/decoder/decoder2to4/decoder2to4.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/decoder2to4/Structural 1678786552 \
+      FL "//fileserver1/201b299/Coa/lab 4/decoder/decoder2to4/decoder2to4.vhd" \
+      EN work/decoder2to4 1678786551
+FL "//fileserver1/201b299/Coa/lab 4/decoder/decoder2to4/decoder3to8.vhd" 2023/03/14.15:05:51 M.53d
+EN work/decoder3to8 1678786553 \
+      FL "//fileserver1/201b299/Coa/lab 4/decoder/decoder2to4/decoder3to8.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/decoder3to8/Structural 1678786554 \
+      FL "//fileserver1/201b299/Coa/lab 4/decoder/decoder2to4/decoder3to8.vhd" \
+      EN work/decoder3to8 1678786553 CP decoder2to4

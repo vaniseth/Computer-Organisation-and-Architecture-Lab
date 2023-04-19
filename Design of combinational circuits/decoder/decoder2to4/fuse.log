@@ -1,0 +1,21 @@
+Running: C:\Xilinx\12.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o N:/Coa/lab 4/decoder/decoder2to4/decoderTest_isim_beh.exe -prj N:/Coa/lab 4/decoder/decoder2to4/decoderTest_beh.prj work.decoderTest 
+ISim M.53d (signature 0x7dea747)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "N:/Coa/lab 4/decoder/decoder2to4/decoder2to4.vhd" into library work
+Parsing VHDL file "N:/Coa/lab 4/decoder/decoder2to4/decoder3to8.vhd" into library work
+WARNING:HDLCompiler:946 - "N:/Coa/lab 4/decoder/decoder2to4/decoder3to8.vhd" Line 47: Actual for formal port en is neither a static name nor a globally static expression
+Parsing VHDL file "N:/Coa/lab 4/decoder/decoder2to4/decoderTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Compiling architecture structural of entity decoder2to4 [decoder2to4_default]
+Compiling architecture structural of entity decoder3to8 [decoder3to8_default]
+Compiling architecture behavior of entity decodertest
+Time Resolution for simulation is 1ps.
+Compiled 7 VHDL Units
+Built simulation executable N:/Coa/lab 4/decoder/decoder2to4/decoderTest_isim_beh.exe
+Fuse Memory Usage: 18908 KB
+Fuse CPU Usage: 171 ms

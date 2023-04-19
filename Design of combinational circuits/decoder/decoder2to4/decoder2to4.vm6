@@ -1,0 +1,195 @@
+NDS Database:  version M.53d
+
+NDS_INFO | xa9500xl | A9536XL44VQ | XA9536XL-15-VQ44
+
+DEVICE | A9536XL | A9536XL44VQ | 
+
+NETWORK | decoder2to4 | 0 | 0 | 16793607
+
+INPUT_INSTANCE | 0 | 0 | NULL | En_IBUF | decoder2to4_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | En | 141 | PI | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | En_IBUF | 130 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | En_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | A_1_IBUF | decoder2to4_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | A<1> | 142 | PI | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | A_1_IBUF | 131 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | A_0_IBUF | decoder2to4_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | A<0> | 143 | PI | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | A_0_IBUF | 132 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | LowPow+OptxMapped | I_0_OBUF | decoder2to4_COPY_0_COPY_0 | 2155872257 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | En_IBUF | 130 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | En_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 131 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 132 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | I_0_OBUF | 133 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | I_0_OBUF.Q | I_0_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | I_0_OBUF.SI | I_0_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | En_IBUF | 130 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | En_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 131 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 132 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | I_0_OBUF.D1 | 145 | ? | 0 | 4096 | I_0_OBUF | NULL | NULL | I_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | I_0_OBUF.D2 | 146 | ? | 0 | 4096 | I_0_OBUF | NULL | NULL | I_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | En_IBUF | IV_FALSE | A_1_IBUF | IV_FALSE | A_0_IBUF
+
+SRFF_INSTANCE | I_0_OBUF.REG | I_0_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | I_0_OBUF.D | 144 | ? | 0 | 0 | I_0_OBUF | NULL | NULL | I_0_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | I_0_OBUF.Q | 147 | ? | 0 | 0 | I_0_OBUF | NULL | NULL | I_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+OptxMapped | I_3_OBUF | decoder2to4_COPY_0_COPY_0 | 2155872257 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | En_IBUF | 130 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | En_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 131 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 132 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | I_3_OBUF | 134 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | I_3_OBUF.Q | I_3_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | I_3_OBUF.SI | I_3_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | En_IBUF | 130 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | En_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 131 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 132 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | I_3_OBUF.D1 | 149 | ? | 0 | 4096 | I_3_OBUF | NULL | NULL | I_3_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | I_3_OBUF.D2 | 150 | ? | 0 | 4096 | I_3_OBUF | NULL | NULL | I_3_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | En_IBUF | IV_TRUE | A_1_IBUF | IV_TRUE | A_0_IBUF
+
+SRFF_INSTANCE | I_3_OBUF.REG | I_3_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | I_3_OBUF.D | 148 | ? | 0 | 0 | I_3_OBUF | NULL | NULL | I_3_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | I_3_OBUF.Q | 151 | ? | 0 | 0 | I_3_OBUF | NULL | NULL | I_3_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+OptxMapped | I_1_OBUF | decoder2to4_COPY_0_COPY_0 | 2155872257 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | En_IBUF | 130 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | En_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 131 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 132 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | I_1_OBUF | 135 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | I_1_OBUF.Q | I_1_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | I_1_OBUF.SI | I_1_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | En_IBUF | 130 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | En_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 131 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 132 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | I_1_OBUF.D1 | 153 | ? | 0 | 4096 | I_1_OBUF | NULL | NULL | I_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | I_1_OBUF.D2 | 154 | ? | 0 | 4096 | I_1_OBUF | NULL | NULL | I_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | En_IBUF | IV_FALSE | A_1_IBUF | IV_TRUE | A_0_IBUF
+
+SRFF_INSTANCE | I_1_OBUF.REG | I_1_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | I_1_OBUF.D | 152 | ? | 0 | 0 | I_1_OBUF | NULL | NULL | I_1_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | I_1_OBUF.Q | 155 | ? | 0 | 0 | I_1_OBUF | NULL | NULL | I_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+OptxMapped | I_2_OBUF | decoder2to4_COPY_0_COPY_0 | 2155872257 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | En_IBUF | 130 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | En_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 131 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 132 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | I_2_OBUF | 136 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | I_2_OBUF.Q | I_2_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | I_2_OBUF.SI | I_2_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | En_IBUF | 130 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | En_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 131 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 132 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | I_2_OBUF.D1 | 157 | ? | 0 | 4096 | I_2_OBUF | NULL | NULL | I_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | I_2_OBUF.D2 | 158 | ? | 0 | 4096 | I_2_OBUF | NULL | NULL | I_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | En_IBUF | IV_TRUE | A_1_IBUF | IV_FALSE | A_0_IBUF
+
+SRFF_INSTANCE | I_2_OBUF.REG | I_2_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | I_2_OBUF.D | 156 | ? | 0 | 0 | I_2_OBUF | NULL | NULL | I_2_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | I_2_OBUF.Q | 159 | ? | 0 | 0 | I_2_OBUF | NULL | NULL | I_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | I<0> | decoder2to4_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | I_0_OBUF | 133 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | I_0_OBUF.Q | I_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | I<0> | 137 | PO | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | I<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | I<3> | decoder2to4_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | I_3_OBUF | 134 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | I_3_OBUF.Q | I_3_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | I<3> | 138 | PO | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | I<3> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | I<1> | decoder2to4_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | I_1_OBUF | 135 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | I_1_OBUF.Q | I_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | I<1> | 139 | PO | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | I<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | I<2> | decoder2to4_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | I_2_OBUF | 136 | ? | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | I_2_OBUF.Q | I_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | I<2> | 140 | PO | 0 | 0 | decoder2to4_COPY_0_COPY_0 | NULL | NULL | I<2> | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | decoder2to4_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | I_2_OBUF | 1 | NULL | 0 | I<2> | 1 | 41 | 49152
+FBPIN | 11 | I_3_OBUF | 1 | NULL | 0 | I<3> | 1 | 7 | 49152
+
+FB_INSTANCE | FOOBAR2_ | decoder2to4_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | I_0_OBUF | 1 | NULL | 0 | I<0> | 1 | 38 | 49152
+FBPIN | 8 | NULL | 0 | A_1_IBUF | 1 | NULL | 0 | 31 | 49152
+FBPIN | 9 | NULL | 0 | A_0_IBUF | 1 | NULL | 0 | 30 | 49152
+FBPIN | 11 | I_1_OBUF | 1 | NULL | 0 | I<1> | 1 | 28 | 49152
+FBPIN | 13 | NULL | 0 | En_IBUF | 1 | NULL | 0 | 23 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | decoder2to4_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | A<1:0> | 2 | 0 | 0 | A<0> | 1 | A<1> | 0
+BUSINFO | I<3:0> | 4 | 0 | 1 | I<0> | 3 | I<1> | 2 | I<2> | 1 | I<3> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 2 | A<1> | 31 | 49 | En | 23 | 50 | A<0> | 30
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | -1 | 38 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 43 | 36 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 2 | A<1> | 31 | 49 | En | 23 | 50 | A<0> | 30
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | 38 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 43 | 36 | -1 | -1 | -1
+
