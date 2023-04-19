@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "N:/Coa/lab 5/logic gates/logicGate/logicGates.xst" -ofn "N:/Coa/lab 5/logic gates/logicGate/logicGates.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "logicGates.ngc" logicGates.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper logicGates.ngd 
+XSLTProcess logicGates_build.xml 
+tsim -intstyle ise logicGates logicGates.nga 
+taengine -intstyle ise -f logicGates -w --format html1 -l logicGates_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n logicGates -i logicGates 

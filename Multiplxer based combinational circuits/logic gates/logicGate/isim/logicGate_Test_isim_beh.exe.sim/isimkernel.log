@@ -1,0 +1,29 @@
+Command line:
+   logicGate_Test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64463
+
+Tue Mar 21 15:42:18 2023
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5138.96 Meg
+
+ Total Signals          : 24
+ Total Nets             : 16
+ Total Signal Drivers   : 13
+ Total Blocks           : 7
+ Total Primitive Blocks : 3
+ Total Processes        : 11
+ Total Traceable Variables  : 11
+ Total Scalar Nets and Variables : 379
+Total Line Count : 21
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 4667.1 Meg
+
+Tue Mar 21 15:46:45 2023
+

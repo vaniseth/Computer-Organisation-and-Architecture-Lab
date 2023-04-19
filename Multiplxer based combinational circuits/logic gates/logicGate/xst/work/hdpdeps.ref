@@ -1,0 +1,15 @@
+V3 7
+FL "//fileserver1/201b299/Coa/lab 5/logic gates/logicGate/logicGates.vhd" 2023/03/21.15:37:37 M.53d
+EN work/logicGates 1679393306 \
+      FL "//fileserver1/201b299/Coa/lab 5/logic gates/logicGate/logicGates.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/logicGates/Behavioral 1679393307 \
+      FL "//fileserver1/201b299/Coa/lab 5/logic gates/logicGate/logicGates.vhd" \
+      EN work/logicGates 1679393306 CP Mux4to1
+FL "//fileserver1/201b299/Coa/lab 5/logic gates/logicGate/MUX4to1.vhd" 2023/03/21.15:36:44 M.53d
+EN work/MUX4to1 1679393304 \
+      FL "//fileserver1/201b299/Coa/lab 5/logic gates/logicGate/MUX4to1.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/MUX4to1/Dataflow 1679393305 \
+      FL "//fileserver1/201b299/Coa/lab 5/logic gates/logicGate/MUX4to1.vhd" \
+      EN work/MUX4to1 1679393304

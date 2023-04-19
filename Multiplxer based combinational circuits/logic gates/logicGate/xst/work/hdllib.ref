@@ -1,0 +1,4 @@
+EN logicgates NULL "//fileserver1/201b299/Coa/lab 5/logic gates/logicGate/logicGates.vhd" sub00/vhpl02 1679393306
+EN mux4to1 NULL "//fileserver1/201b299/Coa/lab 5/logic gates/logicGate/MUX4to1.vhd" sub00/vhpl00 1679393304
+AR logicgates behavioral "//fileserver1/201b299/Coa/lab 5/logic gates/logicGate/logicGates.vhd" sub00/vhpl03 1679393307
+AR mux4to1 dataflow "//fileserver1/201b299/Coa/lab 5/logic gates/logicGate/MUX4to1.vhd" sub00/vhpl01 1679393305
