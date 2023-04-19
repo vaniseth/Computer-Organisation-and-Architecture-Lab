@@ -1,0 +1,22 @@
+V3 11
+FL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/MUX2x1_201b299.vhd" 2023/02/28.15:25:57 M.53d
+EN work/MUX2x1_201b299 1677579233 \
+      FL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/MUX2x1_201b299.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/MUX2x1_201b299/Behavioral 1677579234 \
+      FL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/MUX2x1_201b299.vhd" \
+      EN work/MUX2x1_201b299 1677579233
+FL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/mux4to1_201b299.vhd" 2023/02/28.15:15:37 M.53d
+EN work/mux4to1_201b299 1677579231 \
+      FL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/mux4to1_201b299.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/mux4to1_201b299/Structural 1677579232 \
+      FL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/mux4to1_201b299.vhd" \
+      EN work/mux4to1_201b299 1677579231
+FL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/MUX8x1_201b299.vhd" 2023/02/28.15:43:50 M.53d
+EN work/MUX8x1_201b299 1677579235 \
+      FL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/MUX8x1_201b299.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/MUX8x1_201b299/Structural 1677579236 \
+      FL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/MUX8x1_201b299.vhd" \
+      EN work/MUX8x1_201b299 1677579235 CP mux4to1_201b299 CP MUX2x1_201b299

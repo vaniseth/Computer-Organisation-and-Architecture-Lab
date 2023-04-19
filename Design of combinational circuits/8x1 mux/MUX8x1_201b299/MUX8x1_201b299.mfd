@@ -1,0 +1,62 @@
+MDF Database:  version 1.0
+MDF_INFO | MUX8x1_201b299 | XA9536XL-15-VQ44
+MACROCELL | 0 | 3 | Y_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 10 | Selection<1>  | Selection<0>  | A<0>  | Selection<2>  | A<2>  | A<1>  | A<3>  | A<4>  | EXP4_.EXP  | EXP5_.EXP
+INPUTMC | 2 | 0 | 2 | 0 | 4
+INPUTP | 8 | 43 | 31 | 42 | 4 | 47 | 46 | 34 | 6
+IMPORTS | 2 | 0 | 2 | 0 | 4
+EQ | 18 | 
+   Y = Selection<1> & A<3> & Selection<0> & 
+	!Selection<2>
+	# Selection<1> & !Selection<0> & A<2> & 
+	!Selection<2>
+	# !Selection<1> & Selection<0> & A<1> & 
+	!Selection<2>
+	# !Selection<1> & !Selection<0> & A<0> & 
+	!Selection<2>
+	# !Selection<1> & !Selection<0> & A<4> & 
+	Selection<2>
+;Imported pterms FB1_3
+	# Selection<1> & !Selection<0> & A<6> & 
+	Selection<2>
+	# !Selection<1> & Selection<0> & A<5> & 
+	Selection<2>
+;Imported pterms FB1_5
+	# Selection<1> & Selection<0> & A<7> & 
+	Selection<2>;
+
+MACROCELL | 0 | 2 | EXP4_
+ATTRIBUTES | 2049 | 0
+OUTPUTMC | 1 | 0 | 3
+INPUTS | 5 | Selection<1>  | Selection<0>  | A<6>  | Selection<2>  | A<5>
+INPUTP | 5 | 43 | 31 | 44 | 4 | 7
+EXPORTS | 1 | 0 | 3
+EQ | 4 | 
+       EXP4_.EXP  =  Selection<1> & !Selection<0> & A<6> & 
+	Selection<2>
+	# !Selection<1> & Selection<0> & A<5> & 
+	Selection<2>
+
+MACROCELL | 0 | 4 | EXP5_
+ATTRIBUTES | 2049 | 0
+OUTPUTMC | 1 | 0 | 3
+INPUTS | 4 | Selection<1>  | Selection<0>  | A<7>  | Selection<2>
+INPUTP | 4 | 43 | 31 | 33 | 4
+EXPORTS | 1 | 0 | 3
+EQ | 2 | 
+       EXP5_.EXP  =  Selection<1> & Selection<0> & A<7> & 
+	Selection<2>
+
+PIN | Selection<1> | 64 | 0 | N/A | 43 | 3 | 0 | 3 | 0 | 2 | 0 | 4
+PIN | A<3> | 64 | 0 | N/A | 34 | 1 | 0 | 3
+PIN | Selection<0> | 64 | 0 | N/A | 31 | 3 | 0 | 3 | 0 | 2 | 0 | 4
+PIN | A<2> | 64 | 0 | N/A | 47 | 1 | 0 | 3
+PIN | A<1> | 64 | 0 | N/A | 46 | 1 | 0 | 3
+PIN | A<0> | 64 | 0 | N/A | 42 | 1 | 0 | 3
+PIN | A<7> | 64 | 0 | N/A | 33 | 1 | 0 | 4
+PIN | A<6> | 64 | 0 | N/A | 44 | 1 | 0 | 2
+PIN | A<5> | 64 | 0 | N/A | 7 | 1 | 0 | 2
+PIN | A<4> | 64 | 0 | N/A | 6 | 1 | 0 | 3
+PIN | Selection<2> | 64 | 0 | N/A | 4 | 3 | 0 | 3 | 0 | 2 | 0 | 4
+PIN | Y | 536871040 | 0 | N/A | 9

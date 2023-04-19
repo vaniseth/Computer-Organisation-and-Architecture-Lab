@@ -1,0 +1,6 @@
+EN mux8x1_201b299 NULL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/MUX8x1_201b299.vhd" sub00/vhpl04 1677579235
+AR mux8x1_201b299 structural "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/MUX8x1_201b299.vhd" sub00/vhpl05 1677579236
+EN mux4to1_201b299 NULL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/mux4to1_201b299.vhd" sub00/vhpl00 1677579231
+EN mux2x1_201b299 NULL "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/MUX2x1_201b299.vhd" sub00/vhpl02 1677579233
+AR mux2x1_201b299 behavioral "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/MUX2x1_201b299.vhd" sub00/vhpl03 1677579234
+AR mux4to1_201b299 structural "//fileserver1/201b299/Coa/lab 4/8x1 mux/MUX8x1_201b299/mux4to1_201b299.vhd" sub00/vhpl01 1677579232

@@ -1,0 +1,10 @@
+Command line:
+   mux8x1Test_201b299_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50307
+
+Tue Feb 28 15:51:32 2023
+
+
+ Elaboration Time: 0.015625 sec
