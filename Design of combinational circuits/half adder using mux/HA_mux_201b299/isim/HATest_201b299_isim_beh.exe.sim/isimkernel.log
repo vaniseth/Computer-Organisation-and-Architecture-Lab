@@ -1,0 +1,29 @@
+Command line:
+   HATest_201b299_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50152
+
+Tue Feb 28 15:05:54 2023
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5138.41 Meg
+
+ Total Signals          : 14
+ Total Nets             : 12
+ Total Signal Drivers   : 3
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 372
+Total Line Count : 11
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 4823.84 Meg
+
+Tue Feb 28 15:12:05 2023
+

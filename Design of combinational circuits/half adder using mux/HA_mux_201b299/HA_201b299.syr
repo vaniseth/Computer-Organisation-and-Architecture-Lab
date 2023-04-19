@@ -1,0 +1,193 @@
+Release 12.1 - xst M.53d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Reading design: HA_201b299.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "HA_201b299.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "HA_201b299"
+Output Format                      : NGC
+Target Device                      : Automotive 9500XL
+
+---- Source Options
+Top Module Name                    : HA_201b299
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : HA_201b299.lso
+Keep Hierarchy                     : YES
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//fileserver1/201b299/Coa/lab 4/half adder using mux/HA_mux_201b299/HA_MUX_201b299.vhd" in Library work.
+Architecture structural of Entity ha_mux_201b299 is up to date.
+Compiling vhdl file "//fileserver1/201b299/Coa/lab 4/half adder using mux/HA_mux_201b299/HA_201b299.vhd" in Library work.
+Entity <ha_201b299> compiled.
+Entity <ha_201b299> (Architecture <structural>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <HA_201b299> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <HA_MUX_201b299> in library <work> (architecture <structural>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <HA_201b299> in library <work> (Architecture <structural>).
+Entity <HA_201b299> analyzed. Unit <HA_201b299> generated.
+
+Analyzing Entity <HA_MUX_201b299> in library <work> (Architecture <structural>).
+Entity <HA_MUX_201b299> analyzed. Unit <HA_MUX_201b299> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <HA_MUX_201b299>.
+    Related source file is "//fileserver1/201b299/Coa/lab 4/half adder using mux/HA_mux_201b299/HA_MUX_201b299.vhd".
+Unit <HA_MUX_201b299> synthesized.
+
+
+Synthesizing Unit <HA_201b299>.
+    Related source file is "//fileserver1/201b299/Coa/lab 4/half adder using mux/HA_mux_201b299/HA_201b299.vhd".
+Unit <HA_201b299> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <HA_201b299> ...
+
+Optimizing unit <HA_MUX_201b299> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : HA_201b299.ngr
+Top Level Output File Name         : HA_201b299
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : Automotive 9500XL
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 4
+
+Cell Usage :
+# BELS                             : 2
+#      AND2                        : 1
+#      XOR2                        : 1
+# IO Buffers                       : 4
+#      IBUF                        : 2
+#      OBUF                        : 2
+=========================================================================
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.58 secs
+ 
+--> 
+
+Total memory usage is 4487240 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,21 @@
+MDF Database:  version 1.0
+MDF_INFO | HA_201b299 | XA9536XL-15-VQ44
+MACROCELL | 0 | 1 | Carry_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 2 | A<1>  | A<0>
+INPUTP | 2 | 45 | 44
+EQ | 1 | 
+   Carry = A<1> & A<0>;
+
+MACROCELL | 1 | 1 | Sum_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 2 | A<0>  | A<1>
+INPUTP | 2 | 44 | 45
+EQ | 2 | 
+   Sum = A<0>
+	$ A<1>;
+
+PIN | A<1> | 64 | 0 | N/A | 45 | 2 | 0 | 1 | 1 | 1
+PIN | A<0> | 64 | 0 | N/A | 44 | 2 | 0 | 1 | 1 | 1
+PIN | Carry | 536871040 | 0 | N/A | 8
+PIN | Sum | 536871040 | 0 | N/A | 5

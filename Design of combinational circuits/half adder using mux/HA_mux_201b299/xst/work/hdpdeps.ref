@@ -1,0 +1,15 @@
+V3 7
+FL "//fileserver1/201b299/Coa/lab 4/half adder using mux/HA_mux_201b299/HA_201b299.vhd" 2023/02/28.15:05:06 M.53d
+EN work/HA_201b299 1677576937 \
+      FL "//fileserver1/201b299/Coa/lab 4/half adder using mux/HA_mux_201b299/HA_201b299.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/HA_201b299/Structural 1677576938 \
+      FL "//fileserver1/201b299/Coa/lab 4/half adder using mux/HA_mux_201b299/HA_201b299.vhd" \
+      EN work/HA_201b299 1677576937 CP HA_MUX_201b299
+FL "//fileserver1/201b299/Coa/lab 4/half adder using mux/HA_mux_201b299/HA_MUX_201b299.vhd" 2023/02/21.15:44:54 M.53d
+EN work/HA_MUX_201b299 1677576935 \
+      FL "//fileserver1/201b299/Coa/lab 4/half adder using mux/HA_mux_201b299/HA_MUX_201b299.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/HA_MUX_201b299/structural 1677576936 \
+      FL "//fileserver1/201b299/Coa/lab 4/half adder using mux/HA_mux_201b299/HA_MUX_201b299.vhd" \
+      EN work/HA_MUX_201b299 1677576935
