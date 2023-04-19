@@ -1,0 +1,75 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+C2/C2_D2 <= ((B1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (C0 AND B0 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (C0 AND A0 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B0 AND A0 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D));
+</td></tr><tr><td>
+</td></tr><tr><td>
+C4 <= ((B3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B2 AND A2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B2 AND C2/C2_D2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A2 AND C2/C2_D2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D));
+</td></tr><tr><td>
+</td></tr><tr><td>
+FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D <= A1
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D <= B1;
+</td></tr><tr><td>
+</td></tr><tr><td>
+FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D <= A3
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D <= B3;
+</td></tr><tr><td>
+</td></tr><tr><td>
+S0 <= NOT (A0
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S0 <= NOT (((C0 AND B0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT C0 AND NOT B0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+S1 <= FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S1 <= ((C0 AND B0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (C0 AND A0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B0 AND A0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+S2 <= NOT (A2
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2 <= NOT (((B2 AND C2/C2_D2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT B2 AND NOT C2/C2_D2)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+S3 <= FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S3 <= ((B2 AND A2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B2 AND C2/C2_D2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (A2 AND C2/C2_D2));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

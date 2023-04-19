@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.xst" -ofn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.xst" -ofn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.xst" -ofn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.xst" -ofn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.xst" -ofn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "ripplecarry_generic_201b299.ngc" ripplecarry_generic_201b299.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper ripplecarry_generic_201b299.ngd 
+XSLTProcess ripplecarry_generic_201b299_build.xml 
+tsim -intstyle ise ripplecarry_generic_201b299 ripplecarry_generic_201b299.nga 
+taengine -intstyle ise -f ripplecarry_generic_201b299 -w --format html1 -l ripplecarry_generic_201b299_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n ripplecarry_generic_201b299 -i ripplecarry_generic_201b299 
+xst -intstyle ise -ifn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.xst" -ofn "N:/Coa/lab 3/ripple carry/ripplecarry generic/generic/ripplecarry_generic_201b299.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "ripplecarry_generic_201b299.ngc" ripplecarry_generic_201b299.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper ripplecarry_generic_201b299.ngd 
+XSLTProcess ripplecarry_generic_201b299_build.xml 
+tsim -intstyle ise ripplecarry_generic_201b299 ripplecarry_generic_201b299.nga 
+taengine -intstyle ise -f ripplecarry_generic_201b299 -w --format html1 -l ripplecarry_generic_201b299_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n ripplecarry_generic_201b299 -i ripplecarry_generic_201b299 

@@ -1,0 +1,393 @@
+NDS Database:  version M.53d
+
+NDS_INFO | xa9500xl | A9536XL44VQ | XA9536XL-15-VQ44
+
+DEVICE | A9536XL | A9536XL44VQ | 
+
+NETWORK | ripplecarry_201b299 | 0 | 0 | 16793607
+
+INPUT_INSTANCE | 0 | 0 | NULL | C0_IBUF | ripplecarry_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | C0 | 479 | PI | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | C0_IBUF | 457 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | C0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | B0_IBUF | ripplecarry_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | B0 | 480 | PI | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | B0_IBUF | 458 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | B1_IBUF | ripplecarry_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | B1 | 481 | PI | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | B1_IBUF | 459 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | B2_IBUF | ripplecarry_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | B2 | 482 | PI | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | B2_IBUF | 460 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | B3_IBUF | ripplecarry_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | B3 | 483 | PI | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | B3_IBUF | 461 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | A0_IBUF | ripplecarry_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | A0 | 484 | PI | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | A0_IBUF | 462 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | A1_IBUF | ripplecarry_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | A1 | 485 | PI | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | A1_IBUF | 463 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | A2_IBUF | ripplecarry_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | A2 | 486 | PI | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | A2_IBUF | 464 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | A3_IBUF | ripplecarry_201b299_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | A3 | 487 | PI | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | A3_IBUF | 465 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A3_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | LowPow+OptxMapped | C4_OBUF | ripplecarry_201b299_COPY_0_COPY_0 | 2155872257 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B3_IBUF | 461 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.UIM | 478 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.Q | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B2_IBUF | 460 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C2/C2_D2.UIM | 476 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | C2/C2_D2.Q | C2/C2_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A2_IBUF | 464 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | C4_OBUF | 466 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | C4_OBUF.Q | C4_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | C4_OBUF.SI | C4_OBUF | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B3_IBUF | 461 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.UIM | 478 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.Q | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B2_IBUF | 460 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C2/C2_D2.UIM | 476 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | C2/C2_D2.Q | C2/C2_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A2_IBUF | 464 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | C4_OBUF.D1 | 489 | ? | 0 | 4096 | C4_OBUF | NULL | NULL | C4_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | C4_OBUF.D2 | 490 | ? | 0 | 4096 | C4_OBUF | NULL | NULL | C4_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | B3_IBUF | IV_FALSE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.UIM
+SPPTERM | 3 | IV_TRUE | B2_IBUF | IV_TRUE | A2_IBUF | IV_TRUE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.UIM
+SPPTERM | 3 | IV_TRUE | B2_IBUF | IV_TRUE | C2/C2_D2.UIM | IV_TRUE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.UIM
+SPPTERM | 3 | IV_TRUE | A2_IBUF | IV_TRUE | C2/C2_D2.UIM | IV_TRUE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.UIM
+
+SRFF_INSTANCE | C4_OBUF.REG | C4_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | C4_OBUF.D | 488 | ? | 0 | 0 | C4_OBUF | NULL | NULL | C4_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | C4_OBUF.Q | 491 | ? | 0 | 0 | C4_OBUF | NULL | NULL | C4_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+Inv+OptxMapped | S0_OBUF | ripplecarry_201b299_COPY_0_COPY_0 | 2155872513 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A0_IBUF | 462 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C0_IBUF | 457 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | C0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B0_IBUF | 458 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | S0_OBUF | 467 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | S0_OBUF.Q | S0_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | S0_OBUF.SI | S0_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A0_IBUF | 462 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C0_IBUF | 457 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | C0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B0_IBUF | 458 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | S0_OBUF.D1 | 493 | ? | 0 | 4096 | S0_OBUF | NULL | NULL | S0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | A0_IBUF
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | S0_OBUF.D2 | 494 | ? | 0 | 4096 | S0_OBUF | NULL | NULL | S0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | C0_IBUF | IV_TRUE | B0_IBUF
+SPPTERM | 2 | IV_FALSE | C0_IBUF | IV_FALSE | B0_IBUF
+
+SRFF_INSTANCE | S0_OBUF.REG | S0_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | S0_OBUF.D | 492 | ? | 0 | 0 | S0_OBUF | NULL | NULL | S0_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | S0_OBUF.Q | 495 | ? | 0 | 0 | S0_OBUF | NULL | NULL | S0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+OptxMapped | S1_OBUF | ripplecarry_201b299_COPY_0_COPY_0 | 2155872257 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.UIM | 477 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.Q | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C0_IBUF | 457 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | C0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B0_IBUF | 458 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A0_IBUF | 462 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | S1_OBUF | 468 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | S1_OBUF.Q | S1_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | S1_OBUF.SI | S1_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.UIM | 477 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.Q | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C0_IBUF | 457 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | C0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B0_IBUF | 458 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A0_IBUF | 462 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | S1_OBUF.D1 | 497 | ? | 0 | 4096 | S1_OBUF | NULL | NULL | S1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | S1_OBUF.D2 | 498 | ? | 0 | 4096 | S1_OBUF | NULL | NULL | S1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | C0_IBUF | IV_TRUE | B0_IBUF
+SPPTERM | 2 | IV_TRUE | C0_IBUF | IV_TRUE | A0_IBUF
+SPPTERM | 2 | IV_TRUE | B0_IBUF | IV_TRUE | A0_IBUF
+
+SRFF_INSTANCE | S1_OBUF.REG | S1_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | S1_OBUF.D | 496 | ? | 0 | 0 | S1_OBUF | NULL | NULL | S1_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | S1_OBUF.Q | 499 | ? | 0 | 0 | S1_OBUF | NULL | NULL | S1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+Inv+OptxMapped | S2_OBUF | ripplecarry_201b299_COPY_0_COPY_0 | 2155872513 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A2_IBUF | 464 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B2_IBUF | 460 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C2/C2_D2.UIM | 476 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | C2/C2_D2.Q | C2/C2_D2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | S2_OBUF | 469 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | S2_OBUF.Q | S2_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | S2_OBUF.SI | S2_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A2_IBUF | 464 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B2_IBUF | 460 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C2/C2_D2.UIM | 476 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | C2/C2_D2.Q | C2/C2_D2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | S2_OBUF.D1 | 501 | ? | 0 | 4096 | S2_OBUF | NULL | NULL | S2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | A2_IBUF
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | S2_OBUF.D2 | 502 | ? | 0 | 4096 | S2_OBUF | NULL | NULL | S2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | B2_IBUF | IV_TRUE | C2/C2_D2.UIM
+SPPTERM | 2 | IV_FALSE | B2_IBUF | IV_FALSE | C2/C2_D2.UIM
+
+SRFF_INSTANCE | S2_OBUF.REG | S2_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | S2_OBUF.D | 500 | ? | 0 | 0 | S2_OBUF | NULL | NULL | S2_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | S2_OBUF.Q | 503 | ? | 0 | 0 | S2_OBUF | NULL | NULL | S2_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+OptxMapped | S3_OBUF | ripplecarry_201b299_COPY_0_COPY_0 | 2155872257 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.UIM | 478 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.Q | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B2_IBUF | 460 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C2/C2_D2.UIM | 476 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | C2/C2_D2.Q | C2/C2_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A2_IBUF | 464 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | S3_OBUF | 470 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | S3_OBUF.Q | S3_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | S3_OBUF.SI | S3_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.UIM | 478 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.Q | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B2_IBUF | 460 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C2/C2_D2.UIM | 476 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | C2/C2_D2.Q | C2/C2_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A2_IBUF | 464 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | S3_OBUF.D1 | 505 | ? | 0 | 4096 | S3_OBUF | NULL | NULL | S3_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | S3_OBUF.D2 | 506 | ? | 0 | 4096 | S3_OBUF | NULL | NULL | S3_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | B2_IBUF | IV_TRUE | A2_IBUF
+SPPTERM | 2 | IV_TRUE | B2_IBUF | IV_TRUE | C2/C2_D2.UIM
+SPPTERM | 2 | IV_TRUE | A2_IBUF | IV_TRUE | C2/C2_D2.UIM
+
+SRFF_INSTANCE | S3_OBUF.REG | S3_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | S3_OBUF.D | 504 | ? | 0 | 0 | S3_OBUF | NULL | NULL | S3_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | S3_OBUF.Q | 507 | ? | 0 | 0 | S3_OBUF | NULL | NULL | S3_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | C4 | ripplecarry_201b299_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | C4_OBUF | 466 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | C4_OBUF.Q | C4_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | C4 | 471 | PO | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | C4 | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | S0 | ripplecarry_201b299_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | S0_OBUF | 467 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | S0_OBUF.Q | S0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | S0 | 472 | PO | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | S0 | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | S1 | ripplecarry_201b299_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | S1_OBUF | 468 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | S1_OBUF.Q | S1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | S1 | 473 | PO | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | S1 | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | S2 | ripplecarry_201b299_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | S2_OBUF | 469 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | S2_OBUF.Q | S2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | S2 | 474 | PO | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | S2 | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | S3 | ripplecarry_201b299_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | S3_OBUF | 470 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | S3_OBUF.Q | S3_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | S3 | 475 | PO | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | S3 | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | LowPow+SoftPfbk | C2/C2_D2 | ripplecarry_201b299_COPY_0_COPY_0 | 2181038081 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B1_IBUF | 459 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.UIM | 477 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.Q | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C0_IBUF | 457 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | C0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B0_IBUF | 458 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A0_IBUF | 462 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | C2/C2_D2.UIM | 476 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | C2/C2_D2.Q | C2/C2_D2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | C2/C2_D2.SI | C2/C2_D2 | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B1_IBUF | 459 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.UIM | 477 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.Q | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | C0_IBUF | 457 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | C0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B0_IBUF | 458 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A0_IBUF | 462 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | C2/C2_D2.D1 | 509 | ? | 0 | 4096 | C2/C2_D2 | NULL | NULL | C2/C2_D2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | C2/C2_D2.D2 | 510 | ? | 0 | 4096 | C2/C2_D2 | NULL | NULL | C2/C2_D2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | B1_IBUF | IV_FALSE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.UIM
+SPPTERM | 3 | IV_TRUE | C0_IBUF | IV_TRUE | B0_IBUF | IV_TRUE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.UIM
+SPPTERM | 3 | IV_TRUE | C0_IBUF | IV_TRUE | A0_IBUF | IV_TRUE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.UIM
+SPPTERM | 3 | IV_TRUE | B0_IBUF | IV_TRUE | A0_IBUF | IV_TRUE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.UIM
+
+SRFF_INSTANCE | C2/C2_D2.REG | C2/C2_D2 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | C2/C2_D2.D | 508 | ? | 0 | 0 | C2/C2_D2 | NULL | NULL | C2/C2_D2.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | C2/C2_D2.Q | 511 | ? | 0 | 0 | C2/C2_D2 | NULL | NULL | C2/C2_D2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+SoftPfbk | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | ripplecarry_201b299_COPY_0_COPY_0 | 2181038081 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A1_IBUF | 463 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B1_IBUF | 459 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.UIM | 477 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.Q | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.SI | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A1_IBUF | 463 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B1_IBUF | 459 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.D1 | 513 | ? | 0 | 4096 | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | NULL | NULL | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | A1_IBUF
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.D2 | 514 | ? | 0 | 4096 | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | NULL | NULL | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | B1_IBUF
+
+SRFF_INSTANCE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.REG | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.D | 512 | ? | 0 | 0 | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | NULL | NULL | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.Q | 515 | ? | 0 | 0 | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | NULL | NULL | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+SoftPfbk | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | ripplecarry_201b299_COPY_0_COPY_0 | 2181038081 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A3_IBUF | 465 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B3_IBUF | 461 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.UIM | 478 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.Q | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.SI | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A3_IBUF | 465 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | A3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B3_IBUF | 461 | ? | 0 | 0 | ripplecarry_201b299_COPY_0_COPY_0 | NULL | NULL | B3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.D1 | 517 | ? | 0 | 4096 | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | NULL | NULL | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | A3_IBUF
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.D2 | 518 | ? | 0 | 4096 | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | NULL | NULL | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | B3_IBUF
+
+SRFF_INSTANCE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.REG | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.D | 516 | ? | 0 | 0 | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | NULL | NULL | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.Q | 519 | ? | 0 | 0 | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | NULL | NULL | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.REG | 0 | 8 | SRFF_Q
+
+FB_INSTANCE | FOOBAR1_ | ripplecarry_201b299_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | NULL | 0 | B2_IBUF | 1 | NULL | 0 | 40 | 49152
+FBPIN | 2 | C4_OBUF | 1 | NULL | 0 | C4 | 1 | 41 | 49152
+FBPIN | 9 | S3_OBUF | 1 | NULL | 0 | S3 | 1 | 5 | 49152
+FBPIN | 14 | S2_OBUF | 1 | NULL | 0 | S2 | 1 | 13 | 49152
+FBPIN | 17 | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D | 1 | C0_IBUF | 1 | NULL | 0 | 18 | 49152
+FBPIN | 18 | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | ripplecarry_201b299_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | NULL | 0 | B1_IBUF | 1 | NULL | 0 | 39 | 49152
+FBPIN | 2 | S1_OBUF | 1 | NULL | 0 | S1 | 1 | 38 | 49152
+FBPIN | 8 | NULL | 0 | A2_IBUF | 1 | NULL | 0 | 31 | 49152
+FBPIN | 9 | NULL | 0 | A0_IBUF | 1 | NULL | 0 | 30 | 49152
+FBPIN | 10 | NULL | 0 | A1_IBUF | 1 | NULL | 0 | 29 | 49152
+FBPIN | 11 | S0_OBUF | 1 | NULL | 0 | S0 | 1 | 28 | 49152
+FBPIN | 13 | NULL | 0 | A3_IBUF | 1 | NULL | 0 | 23 | 49152
+FBPIN | 15 | NULL | 0 | B0_IBUF | 1 | NULL | 0 | 21 | 49152
+FBPIN | 16 | NULL | 0 | B3_IBUF | 1 | NULL | 0 | 20 | 49152
+FBPIN | 18 | C2/C2_D2 | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | ripplecarry_201b299_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 0 | B2 | 40 | 2 | A2 | 31 | 16 | FA3/Mxor_Sum__xor0000/FA3/Mxor_Sum__xor0000_D.UIM | NULL | 17 | C2/C2_D2.UIM | NULL | 29 | A1 | 29
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 39 | B1 | 39 | 49 | A3 | 23 | 53 | B3 | 20
+
+FB_IMUX_INDEX | FOOBAR1_ | 54 | -1 | 38 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 16 | 35 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 37 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 52 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 43 | -1 | -1 | -1 | 51
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 1 | C0 | 18 | 16 | B1 | 39 | 17 | FA1/Mxor_Sum__xor0000/FA1/Mxor_Sum__xor0000_D.UIM | NULL | 20 | B0 | 21 | 50 | A0 | 30
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | 55 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 52 | 17 | -1 | -1 | 49 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 36 | -1 | -1 | -1
+

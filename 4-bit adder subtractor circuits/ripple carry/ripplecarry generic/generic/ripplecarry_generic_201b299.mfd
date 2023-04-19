@@ -1,0 +1,102 @@
+MDF Database:  version 1.0
+MDF_INFO | ripplecarry_generic_201b299 | XA9536XL-15-VQ44
+MACROCELL | 1 | 7 | C_2_OBUF
+ATTRIBUTES | 396035 | 0
+OUTPUTMC | 3 | 1 | 11 | 1 | 1 | 0 | 5
+INPUTS | 4 | B<1>  | A<1>  | B<0>  | A<0>
+INPUTP | 4 | 35 | 37 | 42 | 44
+EQ | 3 | 
+   C<2> = B<1> & A<1>
+	# B<0> & A<0> & B<1>
+	# B<0> & A<0> & A<1>;
+
+MACROCELL | 1 | 11 | C_3_OBUF
+ATTRIBUTES | 396035 | 0
+OUTPUTMC | 2 | 0 | 1 | 0 | 9
+INPUTS | 3 | B<2>  | A<2>  | C<2>
+INPUTMC | 1 | 1 | 7
+INPUTP | 2 | 46 | 43
+EQ | 3 | 
+   C<3> = C<2> & B<2>
+	# C<2> & A<2>
+	# B<2> & A<2>;
+
+MACROCELL | 0 | 15 | C_1_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 2 | B<0>  | A<0>
+INPUTP | 2 | 42 | 44
+EQ | 1 | 
+   C<1> = B<0> & A<0>;
+
+MACROCELL | 0 | 1 | C_4_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 3 | B<3>  | A<3>  | C<3>
+INPUTMC | 1 | 1 | 11
+INPUTP | 2 | 4 | 1
+EQ | 3 | 
+   C<4> = C<3> & B<3>
+	# C<3> & A<3>
+	# B<3> & A<3>;
+
+MACROCELL | 0 | 12 | S_0_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 2 | A<0>  | B<0>
+INPUTP | 2 | 44 | 42
+EQ | 2 | 
+   S<0> = A<0>
+	$ B<0>;
+
+MACROCELL | 1 | 1 | S_1_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 5 | C<2>  | B<1>  | A<1>  | B<0>  | A<0>
+INPUTMC | 1 | 1 | 7
+INPUTP | 4 | 35 | 37 | 42 | 44
+EQ | 4 | 
+   S<1> = !C<2> & B<1> & !A<1>
+	# !C<2> & !B<1> & A<1>
+	# B<0> & A<0> & B<1> & A<1>
+	# B<0> & A<0> & !B<1> & !A<1>;
+
+MACROCELL | 0 | 5 | S_2_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 3 | C<2>  | B<2>  | A<2>
+INPUTMC | 1 | 1 | 7
+INPUTP | 2 | 46 | 43
+EQ | 3 | 
+   !S<2> = C<2>
+	$ B<2> & A<2>
+	# !B<2> & !A<2>;
+
+MACROCELL | 0 | 9 | S_3_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 3 | C<3>  | B<3>  | A<3>
+INPUTMC | 1 | 1 | 11
+INPUTP | 2 | 4 | 1
+EQ | 3 | 
+   !S<3> = C<3>
+	$ B<3> & A<3>
+	# !B<3> & !A<3>;
+
+MACROCELL | 1 | 15 | C_0_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 0
+EQ | 1 | 
+   C<0> = Gnd;
+
+PIN | A<1> | 64 | 0 | N/A | 37 | 2 | 1 | 7 | 1 | 1
+PIN | B<1> | 64 | 0 | N/A | 35 | 2 | 1 | 7 | 1 | 1
+PIN | A<0> | 64 | 0 | N/A | 44 | 4 | 1 | 7 | 0 | 15 | 0 | 12 | 1 | 1
+PIN | B<0> | 64 | 0 | N/A | 42 | 4 | 1 | 7 | 0 | 15 | 0 | 12 | 1 | 1
+PIN | A<2> | 64 | 0 | N/A | 43 | 2 | 1 | 11 | 0 | 5
+PIN | B<2> | 64 | 0 | N/A | 46 | 2 | 1 | 11 | 0 | 5
+PIN | B<3> | 64 | 0 | N/A | 4 | 2 | 0 | 1 | 0 | 9
+PIN | A<3> | 64 | 0 | N/A | 1 | 2 | 0 | 1 | 0 | 9
+PIN | C<2> | 536871040 | 0 | N/A | 45
+PIN | C<3> | 536871040 | 0 | N/A | 41
+PIN | C<1> | 536871040 | 0 | N/A | 27
+PIN | C<4> | 536871040 | 0 | N/A | 8
+PIN | S<0> | 536871040 | 0 | N/A | 23
+PIN | S<1> | 536871040 | 0 | N/A | 5
+PIN | S<2> | 536871040 | 0 | N/A | 13
+PIN | S<3> | 536871040 | 0 | N/A | 17
+PIN | C<0> | 536871040 | 0 | N/A | 33

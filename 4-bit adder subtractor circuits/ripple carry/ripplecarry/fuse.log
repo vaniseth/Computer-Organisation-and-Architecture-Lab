@@ -1,0 +1,20 @@
+Running: C:\Xilinx\12.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o N:/Coa/lab 3/ripple carry/ripplecarry/ripplecarry_test_isim_beh.exe -prj N:/Coa/lab 3/ripple carry/ripplecarry/ripplecarry_test_beh.prj work.ripplecarry_test 
+ISim M.53d (signature 0x7dea747)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "N:/Coa/lab 3/ripple carry/ripplecarry/exp3_FA.vhd" into library work
+Parsing VHDL file "N:/Coa/lab 3/ripple carry/ripplecarry/ripplecarry_201b299.vhd" into library work
+Parsing VHDL file "N:/Coa/lab 3/ripple carry/ripplecarry/ripplecarry_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Compiling architecture behavioral of entity exp3_fa [exp3_fa_default]
+Compiling architecture structural of entity ripplecarry_201b299 [ripplecarry_201b299_default]
+Compiling architecture behavior of entity ripplecarry_test
+Time Resolution for simulation is 1ps.
+Compiled 7 VHDL Units
+Built simulation executable N:/Coa/lab 3/ripple carry/ripplecarry/ripplecarry_test_isim_beh.exe
+Fuse Memory Usage: 18788 KB
+Fuse CPU Usage: 109 ms
