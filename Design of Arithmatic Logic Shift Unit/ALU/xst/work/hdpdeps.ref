@@ -1,0 +1,36 @@
+V3 19
+FL "//fileserver1/201b299/Coa/LAB 6/ALU/ALU_design.vhd" 2023/04/18.15:58:47 M.53d
+EN work/ALU_design 1682416259 \
+      FL "//fileserver1/201b299/Coa/LAB 6/ALU/ALU_design.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/ALU_design/Structural 1682416260 \
+      FL "//fileserver1/201b299/Coa/LAB 6/ALU/ALU_design.vhd" EN work/ALU_design 1682416259 \
+      CP Arithmetic_component CP logic_unit CP shift_unit CP MUX_2x1
+FL "//fileserver1/201b299/Coa/LAB 6/ALU/Arithmetic_component.vhd" 2023/04/18.14:54:39 M.53d
+EN work/Arithmetic_component 1682416251 \
+      FL "//fileserver1/201b299/Coa/LAB 6/ALU/Arithmetic_component.vhd" \
+      PB ieee/std_logic_1164 1270894585 PB ieee/std_logic_arith 1270894586 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/Arithmetic_component/Behavioral 1682416252 \
+      FL "//fileserver1/201b299/Coa/LAB 6/ALU/Arithmetic_component.vhd" \
+      EN work/Arithmetic_component 1682416251
+FL "//fileserver1/201b299/Coa/LAB 6/ALU/logic_unit.vhd" 2023/04/25.15:20:33 M.53d
+EN work/logic_unit 1682416253 \
+      FL "//fileserver1/201b299/Coa/LAB 6/ALU/logic_unit.vhd" \
+      PB ieee/std_logic_1164 1270894585 PB ieee/std_logic_arith 1270894586 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/logic_unit/Behavioral 1682416254 \
+      FL "//fileserver1/201b299/Coa/LAB 6/ALU/logic_unit.vhd" EN work/logic_unit 1682416253
+FL "//fileserver1/201b299/Coa/LAB 6/ALU/MUX_2x1.vhd" 2023/04/18.15:24:38 M.53d
+EN work/MUX_2x1 1682416257 FL "//fileserver1/201b299/Coa/LAB 6/ALU/MUX_2x1.vhd" \
+      PB ieee/std_logic_1164 1270894585 PB ieee/std_logic_arith 1270894586 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/MUX_2x1/Behavioral 1682416258 \
+      FL "//fileserver1/201b299/Coa/LAB 6/ALU/MUX_2x1.vhd" EN work/MUX_2x1 1682416257
+FL "//fileserver1/201b299/Coa/LAB 6/ALU/shift_unit.vhd" 2023/04/18.15:08:28 M.53d
+EN work/shift_unit 1682416255 \
+      FL "//fileserver1/201b299/Coa/LAB 6/ALU/shift_unit.vhd" \
+      PB ieee/std_logic_1164 1270894585 PB ieee/std_logic_arith 1270894586 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/shift_unit/Behavioral 1682416256 \
+      FL "//fileserver1/201b299/Coa/LAB 6/ALU/shift_unit.vhd" EN work/shift_unit 1682416255

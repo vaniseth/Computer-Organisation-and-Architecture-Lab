@@ -1,0 +1,5 @@
+vhdl work "shift_unit.vhd"
+vhdl work "MUX_2x1.vhd"
+vhdl work "logic_unit.vhd"
+vhdl work "Arithmetic_component.vhd"
+vhdl work "ALU_design.vhd"

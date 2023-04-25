@@ -1,0 +1,433 @@
+NDS Database:  version M.53d
+
+NDS_INFO | xa9500xl | A9536XL44VQ | XA9536XL-15-VQ44
+
+DEVICE | A9536XL | A9536XL44VQ | 
+
+NETWORK | Arithmetic_component | 0 | 0 | 16793607
+
+INPUT_INSTANCE | 0 | 0 | NULL | Sel_1_IBUF | Arithmetic_component_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Sel<1> | 573 | PI | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | Sel_0_IBUF | Arithmetic_component_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Sel<0> | 574 | PI | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | B_0_IBUF | Arithmetic_component_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | B<0> | 575 | PI | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | B_0_IBUF | 556 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | B_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | A_1_IBUF | Arithmetic_component_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | A<1> | 576 | PI | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | A_1_IBUF | 557 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | A_2_IBUF | Arithmetic_component_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | A<2> | 577 | PI | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | A_2_IBUF | 558 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | A_0_IBUF | Arithmetic_component_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | A<0> | 578 | PI | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | A_0_IBUF | 559 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | B_1_IBUF | Arithmetic_component_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | B<1> | 579 | PI | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | B_1_IBUF | 560 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | B_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | B_2_IBUF | Arithmetic_component_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | B<2> | 580 | PI | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | B_2_IBUF | 561 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | B_2_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | LowPow+Inv+OptxMapped | Y_0_OBUF | Arithmetic_component_COPY_0_COPY_0 | 2155872513 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 559 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM | 568 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_mux0002<0>/Y_mux0002<0>_D2.Q | Y_mux0002<0>/Y_mux0002<0>_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Y_0_OBUF | 562 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_0_OBUF.Q | Y_0_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Y_0_OBUF.SI | Y_0_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 559 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM | 568 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_mux0002<0>/Y_mux0002<0>_D2.Q | Y_mux0002<0>/Y_mux0002<0>_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Y_0_OBUF.D1 | 582 | ? | 0 | 4096 | Y_0_OBUF | NULL | NULL | Y_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Y_0_OBUF.D2 | 583 | ? | 0 | 4096 | Y_0_OBUF | NULL | NULL | Y_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | Sel_1_IBUF | IV_TRUE | A_0_IBUF | IV_FALSE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM
+SPPTERM | 3 | IV_TRUE | Sel_0_IBUF | IV_TRUE | A_0_IBUF | IV_FALSE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM
+SPPTERM | 4 | IV_TRUE | Sel_1_IBUF | IV_FALSE | Sel_0_IBUF | IV_FALSE | A_0_IBUF | IV_TRUE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM
+SPPTERM | 4 | IV_FALSE | Sel_1_IBUF | IV_TRUE | Sel_0_IBUF | IV_FALSE | A_0_IBUF | IV_TRUE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM
+SPPTERM | 4 | IV_FALSE | Sel_1_IBUF | IV_FALSE | Sel_0_IBUF | IV_FALSE | A_0_IBUF | IV_FALSE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM
+
+SRFF_INSTANCE | Y_0_OBUF.REG | Y_0_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Y_0_OBUF.D | 581 | ? | 0 | 0 | Y_0_OBUF | NULL | NULL | Y_0_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Y_0_OBUF.Q | 584 | ? | 0 | 0 | Y_0_OBUF | NULL | NULL | Y_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+OptxMapped | Y_1_OBUF | Arithmetic_component_COPY_0_COPY_0 | 2155872257 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.UIM | 569 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.Q | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.UIM | 570 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.Q | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 557 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.UIM | 571 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.Q | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Y_1_OBUF | 563 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_1_OBUF.Q | Y_1_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Y_1_OBUF.SI | Y_1_OBUF | 0 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.UIM | 569 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.Q | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.UIM | 570 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.Q | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 557 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.UIM | 571 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.Q | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Y_1_OBUF.D1 | 586 | ? | 0 | 4096 | Y_1_OBUF | NULL | NULL | Y_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Y_1_OBUF.D2 | 587 | ? | 0 | 4096 | Y_1_OBUF | NULL | NULL | Y_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.UIM | IV_FALSE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.UIM
+SPPTERM | 3 | IV_TRUE | Sel_1_IBUF | IV_FALSE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.UIM | IV_FALSE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.UIM
+SPPTERM | 3 | IV_FALSE | Sel_1_IBUF | IV_FALSE | Sel_0_IBUF | IV_TRUE | A_1_IBUF
+SPPTERM | 3 | IV_TRUE | Sel_0_IBUF | IV_FALSE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.UIM | IV_FALSE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.UIM
+
+SRFF_INSTANCE | Y_1_OBUF.REG | Y_1_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Y_1_OBUF.D | 585 | ? | 0 | 0 | Y_1_OBUF | NULL | NULL | Y_1_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Y_1_OBUF.Q | 588 | ? | 0 | 0 | Y_1_OBUF | NULL | NULL | Y_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+OptxMapped | Y_2_OBUF | Arithmetic_component_COPY_0_COPY_0 | 2155872257 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_2_IBUF | 558 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_2_IBUF | 561 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | B_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.UIM | 572 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.Q | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP4_.EXP | 614 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | EXP4_.EXP | EXP4_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Y_2_OBUF | 564 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_2_OBUF.Q | Y_2_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Y_2_OBUF.SI | Y_2_OBUF | 0 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_2_IBUF | 558 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_2_IBUF | 561 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | B_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.UIM | 572 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.Q | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP4_.EXP | 614 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | EXP4_.EXP | EXP4_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Y_2_OBUF.D1 | 590 | ? | 0 | 4096 | Y_2_OBUF | NULL | NULL | Y_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Y_2_OBUF.D2 | 591 | ? | 0 | 4096 | Y_2_OBUF | NULL | NULL | Y_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP4_.EXP
+SPPTERM | 3 | IV_TRUE | Sel_1_IBUF | IV_TRUE | Sel_0_IBUF | IV_FALSE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 3 | IV_TRUE | Sel_1_IBUF | IV_TRUE | B_2_IBUF | IV_FALSE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 3 | IV_FALSE | Sel_1_IBUF | IV_FALSE | Sel_0_IBUF | IV_TRUE | A_2_IBUF
+SPPTERM | 3 | IV_TRUE | Sel_0_IBUF | IV_FALSE | B_2_IBUF | IV_FALSE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 4 | IV_TRUE | Sel_1_IBUF | IV_FALSE | Sel_0_IBUF | IV_FALSE | B_2_IBUF | IV_TRUE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.UIM
+
+SRFF_INSTANCE | Y_2_OBUF.REG | Y_2_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Y_2_OBUF.D | 589 | ? | 0 | 0 | Y_2_OBUF | NULL | NULL | Y_2_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Y_2_OBUF.Q | 592 | ? | 0 | 0 | Y_2_OBUF | NULL | NULL | Y_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | Y<0> | Arithmetic_component_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Y_0_OBUF | 562 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_0_OBUF.Q | Y_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Y<0> | 565 | PO | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Y<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Y<1> | Arithmetic_component_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Y_1_OBUF | 563 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_1_OBUF.Q | Y_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Y<1> | 566 | PO | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Y<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | Y<2> | Arithmetic_component_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Y_2_OBUF | 564 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_2_OBUF.Q | Y_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Y<2> | 567 | PO | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Y<2> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | LowPow+SoftPfbk | Y_mux0002<0>/Y_mux0002<0>_D2 | Arithmetic_component_COPY_0_COPY_0 | 2181038081 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_0_IBUF | 556 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | B_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM | 568 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_mux0002<0>/Y_mux0002<0>_D2.Q | Y_mux0002<0>/Y_mux0002<0>_D2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Y_mux0002<0>/Y_mux0002<0>_D2.SI | Y_mux0002<0>/Y_mux0002<0>_D2 | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_0_IBUF | 556 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | B_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Y_mux0002<0>/Y_mux0002<0>_D2.D1 | 594 | ? | 0 | 4096 | Y_mux0002<0>/Y_mux0002<0>_D2 | NULL | NULL | Y_mux0002<0>/Y_mux0002<0>_D2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Y_mux0002<0>/Y_mux0002<0>_D2.D2 | 595 | ? | 0 | 4096 | Y_mux0002<0>/Y_mux0002<0>_D2 | NULL | NULL | Y_mux0002<0>/Y_mux0002<0>_D2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | Sel_1_IBUF | IV_FALSE | Sel_0_IBUF | IV_FALSE | B_0_IBUF
+SPPTERM | 3 | IV_FALSE | Sel_1_IBUF | IV_TRUE | Sel_0_IBUF | IV_FALSE | B_0_IBUF
+
+SRFF_INSTANCE | Y_mux0002<0>/Y_mux0002<0>_D2.REG | Y_mux0002<0>/Y_mux0002<0>_D2 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Y_mux0002<0>/Y_mux0002<0>_D2.D | 593 | ? | 0 | 0 | Y_mux0002<0>/Y_mux0002<0>_D2 | NULL | NULL | Y_mux0002<0>/Y_mux0002<0>_D2.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Y_mux0002<0>/Y_mux0002<0>_D2.Q | 596 | ? | 0 | 0 | Y_mux0002<0>/Y_mux0002<0>_D2 | NULL | NULL | Y_mux0002<0>/Y_mux0002<0>_D2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+Inv+SoftPfbk | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D | Arithmetic_component_COPY_0_COPY_0 | 2181038337 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 557 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 559 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM | 568 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_mux0002<0>/Y_mux0002<0>_D2.Q | Y_mux0002<0>/Y_mux0002<0>_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.UIM | 569 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.Q | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.SI | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 557 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 559 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM | 568 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_mux0002<0>/Y_mux0002<0>_D2.Q | Y_mux0002<0>/Y_mux0002<0>_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.D1 | 598 | ? | 0 | 4096 | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | A_1_IBUF
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.D2 | 599 | ? | 0 | 4096 | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | Sel_1_IBUF | IV_TRUE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM
+SPPTERM | 2 | IV_FALSE | A_0_IBUF | IV_FALSE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM
+
+SRFF_INSTANCE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.REG | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.D | 597 | ? | 0 | 0 | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.Q | 600 | ? | 0 | 0 | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+SoftPfbk | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | Arithmetic_component_COPY_0_COPY_0 | 2181038081 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 557 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.UIM | 571 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.Q | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM | 568 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_mux0002<0>/Y_mux0002<0>_D2.Q | Y_mux0002<0>/Y_mux0002<0>_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 559 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.UIM | 570 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.Q | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.SI | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_1_IBUF | 557 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.UIM | 571 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.Q | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM | 568 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Y_mux0002<0>/Y_mux0002<0>_D2.Q | Y_mux0002<0>/Y_mux0002<0>_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_0_IBUF | 559 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.D1 | 602 | ? | 0 | 4096 | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | NULL | NULL | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.D2 | 603 | ? | 0 | 4096 | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | NULL | NULL | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | A_1_IBUF | IV_FALSE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.UIM
+SPPTERM | 3 | IV_FALSE | Sel_1_IBUF | IV_TRUE | A_1_IBUF | IV_TRUE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM
+SPPTERM | 3 | IV_FALSE | Sel_1_IBUF | IV_TRUE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM | IV_FALSE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.UIM
+SPPTERM | 3 | IV_TRUE | A_1_IBUF | IV_TRUE | A_0_IBUF | IV_FALSE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM
+SPPTERM | 3 | IV_TRUE | A_0_IBUF | IV_FALSE | Y_mux0002<0>/Y_mux0002<0>_D2.UIM | IV_FALSE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.UIM
+
+SRFF_INSTANCE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.REG | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.D | 601 | ? | 0 | 0 | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | NULL | NULL | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.Q | 604 | ? | 0 | 0 | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | NULL | NULL | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+SoftPfbk | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | Arithmetic_component_COPY_0_COPY_0 | 2181038081 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_1_IBUF | 560 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | B_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.UIM | 571 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.Q | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.SI | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_1_IBUF | 560 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | B_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.D1 | 606 | ? | 0 | 4096 | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.D2 | 607 | ? | 0 | 4096 | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | Sel_1_IBUF | IV_FALSE | Sel_0_IBUF | IV_FALSE | B_1_IBUF
+SPPTERM | 3 | IV_FALSE | Sel_1_IBUF | IV_TRUE | Sel_0_IBUF | IV_TRUE | B_1_IBUF
+
+SRFF_INSTANCE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.REG | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.D | 605 | ? | 0 | 0 | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.Q | 608 | ? | 0 | 0 | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+SoftPfbk | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | Arithmetic_component_COPY_0_COPY_0 | 2181038081 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_2_IBUF | 558 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.UIM | 570 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.Q | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.UIM | 572 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.Q | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.SI | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | A_2_IBUF | 558 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | A_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.UIM | 570 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.Q | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.D1 | 610 | ? | 0 | 4096 | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | A_2_IBUF
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.D2 | 611 | ? | 0 | 4096 | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.UIM
+
+SRFF_INSTANCE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.REG | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.D | 609 | ? | 0 | 0 | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.Q | 612 | ? | 0 | 0 | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | NULL | NULL | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow | EXP4_ | Arithmetic_component_COPY_0_COPY_0 | 2147483649 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_2_IBUF | 561 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | B_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.UIM | 572 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.Q | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP4_.EXP | 614 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | EXP4_.EXP | EXP4_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP4_.SI | EXP4_ | 0 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_1_IBUF | 554 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Sel_0_IBUF | 555 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | Sel_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | B_2_IBUF | 561 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | NULL | B_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.UIM | 572 | ? | 0 | 0 | Arithmetic_component_COPY_0_COPY_0 | NULL | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.Q | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP4_.EXP | 613 | ? | 0 | 0 | EXP4_ | NULL | NULL | EXP4_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 4 | IV_FALSE | Sel_1_IBUF | IV_TRUE | Sel_0_IBUF | IV_TRUE | B_2_IBUF | IV_TRUE | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.UIM
+
+FB_INSTANCE | FOOBAR1_ | Arithmetic_component_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 4 | Y_0_OBUF | 1 | NULL | 0 | Y<0> | 1 | 42 | 49152
+FBPIN | 11 | Y_1_OBUF | 1 | NULL | 0 | Y<1> | 1 | 7 | 49152
+FBPIN | 14 | Y_mux0002<0>/Y_mux0002<0>_D2 | 1 | NULL | 0 | NULL | 0 | 13 | 49152
+FBPIN | 15 | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D | 1 | NULL | 0 | NULL | 0 | 14 | 49152
+FBPIN | 16 | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D | 1 | NULL | 0 | NULL | 0 | 16 | 49152
+FBPIN | 17 | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D | 1 | NULL | 0 | NULL | 0 | 18 | 49152
+FBPIN | 18 | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2 | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | Arithmetic_component_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | NULL | 0 | B_2_IBUF | 1 | NULL | 0 | 39 | 49152
+FBPIN | 3 | EXP4_ | 1 | NULL | 0 | NULL | 0 | 36 | 53248
+FBPIN | 4 | Y_2_OBUF | 1 | NULL | 0 | Y<2> | 1 | 37 | 49152
+FBPIN | 6 | NULL | 0 | A_0_IBUF | 1 | NULL | 0 | 33 | 51200
+FBPIN | 7 | NULL | 0 | Sel_1_IBUF | 1 | NULL | 0 | 32 | 49152
+FBPIN | 8 | NULL | 0 | A_2_IBUF | 1 | NULL | 0 | 31 | 49152
+FBPIN | 11 | NULL | 0 | Sel_0_IBUF | 1 | NULL | 0 | 28 | 49152
+FBPIN | 14 | NULL | 0 | A_1_IBUF | 1 | NULL | 0 | 22 | 49152
+FBPIN | 15 | NULL | 0 | B_0_IBUF | 1 | NULL | 0 | 21 | 49152
+FBPIN | 16 | NULL | 0 | B_1_IBUF | 1 | NULL | 0 | 20 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | Arithmetic_component_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | A<2:0> | 3 | 0 | 0 | A<0> | 2 | A<1> | 1 | A<2> | 0
+BUSINFO | B<2:0> | 3 | 0 | 0 | B<0> | 2 | B<1> | 1 | B<2> | 0
+BUSINFO | SEL<1:0> | 2 | 0 | 0 | Sel<0> | 1 | Sel<1> | 0
+BUSINFO | Y<2:0> | 3 | 0 | 1 | Y<0> | 2 | Y<1> | 1 | Y<2> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 3 | Sel<0> | 28 | 4 | Sel<1> | 32 | 15 | B<1> | 20 | 17 | Maddsub_Y_addsub0000__or0001/Maddsub_Y_addsub0000__or0001_D2.UIM | NULL | 20 | B<0> | 21
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 31 | Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D.UIM | NULL | 33 | A<0> | 33 | 34 | A<2> | 31 | 35 | A<1> | 22 | 43 | Y_mux0002<0>/Y_mux0002<0>_D2.UIM | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 48 | Maddsub_Y_addsub0000_or0001_xor0000/Maddsub_Y_addsub0000_or0001_xor0000_D.UIM | NULL
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | -1 | -1 | 39 | 40 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 51 | -1 | 17 | -1 | -1 | 49 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 16 | -1 | 42 | 38 | 47 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 13 | -1 | -1 | -1 | -1 | 14 | -1 | -1 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 3 | Sel<0> | 28 | 4 | Sel<1> | 32 | 15 | Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D.UIM | NULL | 34 | A<2> | 31 | 48 | B<2> | 39
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | -1 | 39 | 40 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 15 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 38 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 52 | -1 | -1 | -1 | -1 | -1
+

@@ -1,0 +1,65 @@
+MDF Database:  version 1.0
+MDF_INFO | logic_unit | XA9536XL-15-VQ44
+MACROCELL | 0 | 10 | Y_0_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 3 | A<0>  | B<0>  | Sel
+INPUTP | 3 | 44 | 33 | 37
+EQ | 2 | 
+   Y<0> = A<0>
+	$ B<0> & !Sel;
+
+MACROCELL | 0 | 1 | Y_1_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 4 | Sel  | A<1>  | B<1>  | A<0>
+INPUTP | 4 | 37 | 45 | 6 | 44
+EQ | 4 | 
+   Y<1> = Sel & A<0> & !A<1>
+	# Sel & !A<0> & A<1>
+	# !Sel & A<1> & !B<1>
+	# !Sel & !A<1> & B<1>;
+
+MACROCELL | 1 | 3 | Y_2_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 5 | Sel  | A<0>  | A<2>  | A<1>  | B<2>
+INPUTP | 5 | 37 | 44 | 35 | 45 | 7
+EQ | 5 | 
+   Y<2> = Sel & A<0> & !A<2>
+	# Sel & A<1> & !A<2>
+	# !Sel & A<2> & !B<2>
+	# !Sel & !A<2> & B<2>
+	# Sel & !A<0> & !A<1> & A<2>;
+
+MACROCELL | 1 | 10 | Y_3_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 4 | Sel  | A<3>  | Madd_Y_addsub0000__and0001/Madd_Y_addsub0000__and0001_D2  | B<3>
+INPUTMC | 1 | 1 | 17
+INPUTP | 3 | 37 | 34 | 31
+EQ | 6 | 
+   Y<3> = Sel & A<3> & 
+	Madd_Y_addsub0000__and0001/Madd_Y_addsub0000__and0001_D2
+	# Sel & !A<3> & 
+	!Madd_Y_addsub0000__and0001/Madd_Y_addsub0000__and0001_D2
+	# !Sel & B<3> & !A<3>
+	# !Sel & !B<3> & A<3>;
+
+MACROCELL | 1 | 17 | Madd_Y_addsub0000__and0001/Madd_Y_addsub0000__and0001_D2
+ATTRIBUTES | 133889 | 0
+OUTPUTMC | 1 | 1 | 10
+INPUTS | 3 | A<0>  | A<1>  | A<2>
+INPUTP | 3 | 44 | 45 | 35
+EQ | 1 | 
+   Madd_Y_addsub0000__and0001/Madd_Y_addsub0000__and0001_D2 = !A<0> & !A<1> & !A<2>;
+
+PIN | B<0> | 64 | 0 | N/A | 33 | 1 | 0 | 10
+PIN | Sel | 64 | 0 | N/A | 37 | 4 | 0 | 10 | 0 | 1 | 1 | 3 | 1 | 10
+PIN | A<0> | 64 | 0 | N/A | 44 | 4 | 0 | 10 | 0 | 1 | 1 | 3 | 1 | 17
+PIN | A<1> | 64 | 0 | N/A | 45 | 3 | 0 | 1 | 1 | 3 | 1 | 17
+PIN | A<2> | 64 | 0 | N/A | 35 | 2 | 1 | 3 | 1 | 17
+PIN | B<1> | 64 | 0 | N/A | 6 | 1 | 0 | 1
+PIN | B<2> | 64 | 0 | N/A | 7 | 1 | 1 | 3
+PIN | B<3> | 64 | 0 | N/A | 31 | 1 | 1 | 10
+PIN | A<3> | 64 | 0 | N/A | 34 | 1 | 1 | 10
+PIN | Y<0> | 536871040 | 0 | N/A | 18
+PIN | Y<1> | 536871040 | 0 | N/A | 8
+PIN | Y<2> | 536871040 | 0 | N/A | 4
+PIN | Y<3> | 536871040 | 0 | N/A | 42

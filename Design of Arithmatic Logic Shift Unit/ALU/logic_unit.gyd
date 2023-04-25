@@ -1,0 +1,28 @@
+Pin Freeze File:  version M.53d
+
+A9536XL44VQ XA9536XL-15-VQ44
+A<0> S:PIN30
+A<1> S:PIN31
+A<2> S:PIN22
+A<3> S:PIN21
+B<0> S:PIN20
+B<1> S:PIN39
+B<2> S:PIN40
+B<3> S:PIN18
+Sel S:PIN23
+Y<0> S:PIN7
+Y<1> S:PIN41
+Y<2> S:PIN37
+Y<3> S:PIN28
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_2 Y_1_OBUF
+PARTITION FB1_11 Y_0_OBUF
+
+PARTITION FB2_4 Y_2_OBUF
+PARTITION FB2_11 Y_3_OBUF
+PARTITION FB2_18 Madd_Y_addsub0000__and0001/Madd_Y_addsub0000__and0001_D2
+

@@ -1,0 +1,270 @@
+Release 12.1 - xst M.53d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: ALU_design.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU_design.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU_design"
+Output Format                      : NGC
+Target Device                      : Automotive 9500XL
+
+---- Source Options
+Top Module Name                    : ALU_design
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : ALU_design.lso
+Keep Hierarchy                     : YES
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//fileserver1/201b299/Coa/LAB 6/ALU/Arithmetic_component.vhd" in Library work.
+Architecture behavioral of Entity arithmetic_component is up to date.
+Compiling vhdl file "//fileserver1/201b299/Coa/LAB 6/ALU/logic_unit.vhd" in Library work.
+Entity <logic_unit> compiled.
+Entity <logic_unit> (Architecture <behavioral>) compiled.
+Compiling vhdl file "//fileserver1/201b299/Coa/LAB 6/ALU/shift_unit.vhd" in Library work.
+Architecture behavioral of Entity shift_unit is up to date.
+Compiling vhdl file "//fileserver1/201b299/Coa/LAB 6/ALU/MUX_2x1.vhd" in Library work.
+Architecture behavioral of Entity mux_2x1 is up to date.
+Compiling vhdl file "//fileserver1/201b299/Coa/LAB 6/ALU/ALU_design.vhd" in Library work.
+Architecture structural of Entity alu_design is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ALU_design> in library <work> (architecture <structural>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <Arithmetic_component> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <logic_unit> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <shift_unit> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <MUX_2x1> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <ALU_design> in library <work> (Architecture <structural>).
+	n = 4
+Entity <ALU_design> analyzed. Unit <ALU_design> generated.
+
+Analyzing generic Entity <Arithmetic_component> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <Arithmetic_component> analyzed. Unit <Arithmetic_component> generated.
+
+Analyzing generic Entity <logic_unit> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <logic_unit> analyzed. Unit <logic_unit> generated.
+
+Analyzing generic Entity <shift_unit> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <shift_unit> analyzed. Unit <shift_unit> generated.
+
+Analyzing generic Entity <MUX_2x1> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <MUX_2x1> analyzed. Unit <MUX_2x1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Arithmetic_component>.
+    Related source file is "//fileserver1/201b299/Coa/LAB 6/ALU/Arithmetic_component.vhd".
+    Found 4-bit addsub for signal <Y$addsub0000>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Arithmetic_component> synthesized.
+
+
+Synthesizing Unit <logic_unit>.
+    Related source file is "//fileserver1/201b299/Coa/LAB 6/ALU/logic_unit.vhd".
+    Found 4-bit adder for signal <Y$addsub0000> created at line 41.
+    Found 4-bit xor2 for signal <Y$xor0000> created at line 39.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <logic_unit> synthesized.
+
+
+Synthesizing Unit <shift_unit>.
+    Related source file is "//fileserver1/201b299/Coa/LAB 6/ALU/shift_unit.vhd".
+WARNING:Xst:647 - Input <B<3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <shift_unit> synthesized.
+
+
+Synthesizing Unit <MUX_2x1>.
+    Related source file is "//fileserver1/201b299/Coa/LAB 6/ALU/MUX_2x1.vhd".
+Unit <MUX_2x1> synthesized.
+
+
+Synthesizing Unit <ALU_design>.
+    Related source file is "//fileserver1/201b299/Coa/LAB 6/ALU/ALU_design.vhd".
+Unit <ALU_design> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit addsub                                          : 1
+# Xors                                                 : 1
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit addsub                                          : 1
+# Xors                                                 : 1
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ALU_design> ...
+
+Optimizing unit <shift_unit> ...
+
+Optimizing unit <MUX_2x1> ...
+
+Optimizing unit <logic_unit> ...
+
+Optimizing unit <Arithmetic_component> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ALU_design.ngr
+Top Level Output File Name         : ALU_design
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : Automotive 9500XL
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 134
+#      AND2                        : 52
+#      AND3                        : 1
+#      INV                         : 37
+#      OR2                         : 25
+#      OR3                         : 1
+#      XOR2                        : 18
+# IO Buffers                       : 15
+#      IBUF                        : 11
+#      OBUF                        : 4
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.53 secs
+ 
+--> 
+
+Total memory usage is 4487244 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

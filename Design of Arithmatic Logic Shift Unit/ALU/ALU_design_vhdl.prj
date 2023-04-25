@@ -1,0 +1,5 @@
+vhdl work "\\fileserver1\201b299\Coa\LAB 6\ALU\shift_unit.vhd"
+vhdl work "\\fileserver1\201b299\Coa\LAB 6\ALU\MUX_2x1.vhd"
+vhdl work "\\fileserver1\201b299\Coa\LAB 6\ALU\logic_unit.vhd"
+vhdl work "\\fileserver1\201b299\Coa\LAB 6\ALU\Arithmetic_component.vhd"
+vhdl work "\\fileserver1\201b299\Coa\LAB 6\ALU\ALU_design.vhd"

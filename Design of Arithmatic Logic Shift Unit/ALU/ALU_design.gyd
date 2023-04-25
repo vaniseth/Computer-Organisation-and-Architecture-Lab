@@ -1,0 +1,32 @@
+Pin Freeze File:  version M.53d
+
+A9536XL44VQ XA9536XL-15-VQ44
+A<0> S:PIN31
+A<1> S:PIN32
+A<2> S:PIN22
+A<3> S:PIN39
+B<0> S:PIN21
+B<1> S:PIN6
+B<2> S:PIN40
+B<3> S:PIN41
+Sel<0> S:PIN30
+Sel<1> S:PIN18
+Sel<2> S:PIN29
+Y<0> S:PIN7
+Y<1> S:PIN42
+Y<2> S:PIN28
+Y<3> S:PIN37
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_3 EXP4_ Y_1_OBUF EXP5_
+PARTITION FB1_10 EXP6_ Y_0_OBUF EXP7_
+PARTITION FB1_15 AU/Maddsub_Y_addsub0000__or0001/AU/Maddsub_Y_addsub0000__or0001_D2 AU/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000/AU/Maddsub_Y_addsub0000_Mxor_Result<2>__xor0000_D AU/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000/AU/Maddsub_Y_addsub0000_Mxor_Result<1>__xor0000_D AU/Maddsub_Y_addsub0000__or0002/AU/Maddsub_Y_addsub0000__or0002_D2
+		
+PARTITION FB2_3 EXP8_ Y_3_OBUF EXP9_
+PARTITION FB2_10 EXP10_ Y_2_OBUF EXP11_ LU/Madd_Y_addsub0000__and0001/LU/Madd_Y_addsub0000__and0001_D2
+		 $OpTx$FX_DC$2 AU/Maddsub_Y_addsub0000_or0002_xor0000/AU/Maddsub_Y_addsub0000_or0002_xor0000_D AU/Maddsub_Y_addsub0000_or0001_xor0000/AU/Maddsub_Y_addsub0000_or0001_xor0000_D AU/Maddsub_Y_addsub0000_Mxor_Result<3>__xor0000/AU/Maddsub_Y_addsub0000_Mxor_Result<3>__xor0000_D
+		 AU/Maddsub_Y_addsub0000__or0000/AU/Maddsub_Y_addsub0000__or0000_D2
+

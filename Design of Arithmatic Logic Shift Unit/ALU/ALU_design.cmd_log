@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "N:/Coa/LAB 6/ALU/ALU_design.xst" -ofn "N:/Coa/LAB 6/ALU/ALU_design.syr" 
+xst -intstyle ise -ifn "N:/Coa/LAB 6/ALU/ALU_design.xst" -ofn "N:/Coa/LAB 6/ALU/ALU_design.syr" 
+xst -intstyle ise -ifn "N:/Coa/LAB 6/ALU/ALU_design.xst" -ofn "N:/Coa/LAB 6/ALU/ALU_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "ALU_design.ngc" ALU_design.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper ALU_design.ngd 
+XSLTProcess ALU_design_build.xml 
+tsim -intstyle ise ALU_design ALU_design.nga 
+taengine -intstyle ise -f ALU_design -w --format html1 -l ALU_design_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n ALU_design -i ALU_design 
+xst -intstyle ise -ifn "N:/Coa/LAB 6/ALU/ALU_design.xst" -ofn "N:/Coa/LAB 6/ALU/ALU_design.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "ALU_design.ngc" ALU_design.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper ALU_design.ngd 
+XSLTProcess ALU_design_build.xml 
+tsim -intstyle ise ALU_design ALU_design.nga 
+taengine -intstyle ise -f ALU_design -w --format html1 -l ALU_design_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n ALU_design -i ALU_design 

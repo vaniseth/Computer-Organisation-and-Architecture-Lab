@@ -1,0 +1,5 @@
+work	"ALU_design.vhd"
+work	"Arithmetic_component.vhd"
+work	"MUX_2x1.vhd"
+work	"logic_unit.vhd"
+work	"shift_unit.vhd"

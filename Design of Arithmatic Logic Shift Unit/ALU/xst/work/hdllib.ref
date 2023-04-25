@@ -1,0 +1,10 @@
+AR alu_design structural "//fileserver1/201b299/Coa/LAB 6/ALU/ALU_design.vhd" sub00/vhpl09 1682416260
+AR arithmetic_component behavioral "//fileserver1/201b299/Coa/LAB 6/ALU/Arithmetic_component.vhd" sub00/vhpl01 1682416252
+AR shift_unit behavioral "//fileserver1/201b299/Coa/LAB 6/ALU/shift_unit.vhd" sub00/vhpl05 1682416256
+EN shift_unit NULL "//fileserver1/201b299/Coa/LAB 6/ALU/shift_unit.vhd" sub00/vhpl04 1682416255
+EN logic_unit NULL "//fileserver1/201b299/Coa/LAB 6/ALU/logic_unit.vhd" sub00/vhpl02 1682416253
+EN arithmetic_component NULL "//fileserver1/201b299/Coa/LAB 6/ALU/Arithmetic_component.vhd" sub00/vhpl00 1682416251
+AR logic_unit behavioral "//fileserver1/201b299/Coa/LAB 6/ALU/logic_unit.vhd" sub00/vhpl03 1682416254
+AR mux_2x1 behavioral "//fileserver1/201b299/Coa/LAB 6/ALU/MUX_2x1.vhd" sub00/vhpl07 1682416258
+EN alu_design NULL "//fileserver1/201b299/Coa/LAB 6/ALU/ALU_design.vhd" sub00/vhpl08 1682416259
+EN mux_2x1 NULL "//fileserver1/201b299/Coa/LAB 6/ALU/MUX_2x1.vhd" sub00/vhpl06 1682416257

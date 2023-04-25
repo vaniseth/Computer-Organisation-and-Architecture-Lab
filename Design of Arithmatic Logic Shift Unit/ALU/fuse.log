@@ -1,0 +1,28 @@
+Running: C:\Xilinx\12.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o N:/Coa/LAB 6/ALU/ALU_Test_isim_beh.exe -prj N:/Coa/LAB 6/ALU/ALU_Test_beh.prj work.ALU_Test 
+ISim M.53d (signature 0x7dea747)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "N:/Coa/LAB 6/ALU/shift_unit.vhd" into library work
+Parsing VHDL file "N:/Coa/LAB 6/ALU/MUX_2x1.vhd" into library work
+Parsing VHDL file "N:/Coa/LAB 6/ALU/logic_unit.vhd" into library work
+Parsing VHDL file "N:/Coa/LAB 6/ALU/Arithmetic_component.vhd" into library work
+Parsing VHDL file "N:/Coa/LAB 6/ALU/ALU_design.vhd" into library work
+Parsing VHDL file "N:/Coa/LAB 6/ALU/ALU_Test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Compiling architecture behavioral of entity arithmetic_component [\Arithmetic_component(4)\]
+Compiling architecture behavioral of entity logic_unit [\logic_unit(4)\]
+Compiling architecture behavioral of entity shift_unit [\shift_unit(4)\]
+Compiling architecture behavioral of entity mux_2x1 [\MUX_2x1(4)\]
+Compiling architecture structural of entity alu_design [\ALU_design(4)\]
+Compiling architecture behavior of entity alu_test
+Time Resolution for simulation is 1ps.
+Compiled 15 VHDL Units
+Built simulation executable N:/Coa/LAB 6/ALU/ALU_Test_isim_beh.exe
+Fuse Memory Usage: 20556 KB
+Fuse CPU Usage: 140 ms

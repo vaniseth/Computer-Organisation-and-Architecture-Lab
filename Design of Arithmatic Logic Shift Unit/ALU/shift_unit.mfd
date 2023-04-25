@@ -1,0 +1,45 @@
+MDF Database:  version 1.0
+MDF_INFO | shift_unit | XA9536XL-15-VQ44
+MACROCELL | 1 | 1 | Y_1_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 3 | Sel  | B<0>  | A<2>
+INPUTP | 3 | 44 | 33 | 35
+EQ | 2 | 
+   Y<1> = Sel & B<0>
+	# !Sel & A<2>;
+
+MACROCELL | 1 | 10 | Y_2_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 3 | Sel  | A<3>  | B<1>
+INPUTP | 3 | 44 | 34 | 6
+EQ | 2 | 
+   Y<2> = Sel & B<1>
+	# !Sel & A<3>;
+
+MACROCELL | 0 | 1 | Y_3_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 3 | Sel  | B<2>  | A<0>
+INPUTP | 3 | 44 | 7 | 45
+EQ | 2 | 
+   Y<3> = Sel & B<2>
+	# !Sel & A<0>;
+
+MACROCELL | 0 | 10 | Y_0_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 2 | Sel  | A<1>
+INPUTP | 2 | 44 | 37
+EQ | 1 | 
+   Y<0> = !Sel & A<1>;
+
+PIN | Sel | 64 | 0 | N/A | 44 | 4 | 1 | 1 | 1 | 10 | 0 | 1 | 0 | 10
+PIN | B<0> | 64 | 0 | N/A | 33 | 1 | 1 | 1
+PIN | A<2> | 64 | 0 | N/A | 35 | 1 | 1 | 1
+PIN | B<1> | 64 | 0 | N/A | 6 | 1 | 1 | 10
+PIN | A<3> | 64 | 0 | N/A | 34 | 1 | 1 | 10
+PIN | B<2> | 64 | 0 | N/A | 7 | 1 | 0 | 1
+PIN | A<0> | 64 | 0 | N/A | 45 | 1 | 0 | 1
+PIN | A<1> | 64 | 0 | N/A | 37 | 1 | 0 | 10
+PIN | Y<1> | 536871040 | 0 | N/A | 5
+PIN | Y<2> | 536871040 | 0 | N/A | 42
+PIN | Y<3> | 536871040 | 0 | N/A | 8
+PIN | Y<0> | 536871040 | 0 | N/A | 18
