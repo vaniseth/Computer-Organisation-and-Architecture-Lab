@@ -1,0 +1,15 @@
+V3 7
+FL "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/D_FlipFlop.vhd" 2023/05/02.15:07:54 M.53d
+EN work/D_FlipFlop 1683022775 \
+      FL "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/D_FlipFlop.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/D_FlipFlop/Behavioral 1683022776 \
+      FL "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/D_FlipFlop.vhd" \
+      EN work/D_FlipFlop 1683022775
+FL "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.vhd" 2023/05/02.15:45:50 M.53d
+EN work/MOD6_BinaryCounter 1683022777 \
+      FL "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/MOD6_BinaryCounter/Behavioral 1683022778 \
+      FL "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.vhd" \
+      EN work/MOD6_BinaryCounter 1683022777 CP D_FlipFlop

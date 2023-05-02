@@ -1,0 +1,4 @@
+AR mod6_binarycounter behavioral "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.vhd" sub00/vhpl03 1683022778
+EN d_flipflop NULL "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/D_FlipFlop.vhd" sub00/vhpl00 1683022775
+EN mod6_binarycounter NULL "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.vhd" sub00/vhpl02 1683022777
+AR d_flipflop behavioral "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/D_FlipFlop.vhd" sub00/vhpl01 1683022776
