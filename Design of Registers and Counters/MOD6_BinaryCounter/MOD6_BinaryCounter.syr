@@ -1,0 +1,199 @@
+Release 12.1 - xst M.53d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> Reading design: MOD6_BinaryCounter.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MOD6_BinaryCounter.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MOD6_BinaryCounter"
+Output Format                      : NGC
+Target Device                      : Automotive 9500XL
+
+---- Source Options
+Top Module Name                    : MOD6_BinaryCounter
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : MOD6_BinaryCounter.lso
+Keep Hierarchy                     : YES
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/D_FlipFlop.vhd" in Library work.
+Architecture behavioral of Entity d_flipflop is up to date.
+Compiling vhdl file "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.vhd" in Library work.
+Entity <mod6_binarycounter> compiled.
+Entity <mod6_binarycounter> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <MOD6_BinaryCounter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D_FlipFlop> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <MOD6_BinaryCounter> in library <work> (Architecture <behavioral>).
+Entity <MOD6_BinaryCounter> analyzed. Unit <MOD6_BinaryCounter> generated.
+
+Analyzing Entity <D_FlipFlop> in library <work> (Architecture <behavioral>).
+Entity <D_FlipFlop> analyzed. Unit <D_FlipFlop> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <D_FlipFlop>.
+    Related source file is "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/D_FlipFlop.vhd".
+    Found 1-bit register for signal <Q>.
+Unit <D_FlipFlop> synthesized.
+
+
+Synthesizing Unit <MOD6_BinaryCounter>.
+    Related source file is "//fileserver1/201b299/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.vhd".
+Unit <MOD6_BinaryCounter> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 3
+ 1-bit register                                        : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <MOD6_BinaryCounter> ...
+
+Optimizing unit <D_FlipFlop> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : MOD6_BinaryCounter.ngr
+Top Level Output File Name         : MOD6_BinaryCounter
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : Automotive 9500XL
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 5
+
+Cell Usage :
+# BELS                             : 10
+#      AND2                        : 4
+#      INV                         : 6
+# FlipFlops/Latches                : 3
+#      FD                          : 3
+# IO Buffers                       : 5
+#      IBUF                        : 1
+#      OBUF                        : 4
+=========================================================================
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.41 secs
+ 
+--> 
+
+Total memory usage is 4487244 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

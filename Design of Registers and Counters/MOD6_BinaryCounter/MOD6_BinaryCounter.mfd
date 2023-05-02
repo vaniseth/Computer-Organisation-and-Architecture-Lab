@@ -1,0 +1,42 @@
+MDF Database:  version 1.0
+MDF_INFO | MOD6_BinaryCounter | XA9536XL-15-VQ44
+MACROCELL | 1 | 10 | Qb_OBUF
+ATTRIBUTES | 4588323 | 0
+OUTPUTMC | 3 | 0 | 10 | 1 | 1 | 0 | 1
+INPUTS | 1 | Qa
+INPUTMC | 1 | 1 | 1
+EQ | 2 | 
+   Qb.T = Vcc;
+   Qb.CLK = !Qa;
+
+MACROCELL | 0 | 10 | Reset_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 2 | Qb  | Qc
+INPUTMC | 2 | 1 | 10 | 0 | 1
+EQ | 1 | 
+   Reset = Qb & Qc;
+
+MACROCELL | 1 | 1 | Qa_OBUF
+ATTRIBUTES | 4621059 | 0
+OUTPUTMC | 2 | 1 | 10 | 1 | 1
+INPUTS | 3 | Qb  | Qa  | Qc
+INPUTMC | 3 | 1 | 10 | 1 | 1 | 0 | 1
+EQ | 2 | 
+   !Qa.T = Qb & !Qa & Qc;
+   Qa.CLK = clk;	// GCK
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 0 | 1 | Qc_OBUF
+ATTRIBUTES | 4588323 | 0
+OUTPUTMC | 2 | 0 | 10 | 1 | 1
+INPUTS | 1 | Qb
+INPUTMC | 1 | 1 | 10
+EQ | 2 | 
+   Qc.T = Vcc;
+   Qc.CLK = !Qb;
+
+PIN | clk | 4096 | 0 | N/A | 10 | 1 | 1 | 1
+PIN | Qb | 536871040 | 0 | N/A | 42
+PIN | Reset | 536871040 | 0 | N/A | 18
+PIN | Qa | 536871040 | 0 | N/A | 5
+PIN | Qc | 536871040 | 0 | N/A | 8

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.xst" -ofn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.xst" -ofn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.xst" -ofn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.xst" -ofn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.xst" -ofn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.xst" -ofn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.syr" 
+xst -intstyle ise -ifn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.xst" -ofn "N:/Coa/lab 7/MOD6_BinaryCounter/MOD6_BinaryCounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "MOD6_BinaryCounter.ngc" MOD6_BinaryCounter.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper MOD6_BinaryCounter.ngd 
+XSLTProcess MOD6_BinaryCounter_build.xml 
+tsim -intstyle ise MOD6_BinaryCounter MOD6_BinaryCounter.nga 
+taengine -intstyle ise -f MOD6_BinaryCounter -w --format html1 -l MOD6_BinaryCounter_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n MOD6_BinaryCounter -i MOD6_BinaryCounter 
