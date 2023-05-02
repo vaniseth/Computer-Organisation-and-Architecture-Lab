@@ -1,0 +1,15 @@
+MDF Database:  version 1.0
+MDF_INFO | D_FlipFlop | XA9536XL-15-VQ44
+MACROCELL | 1 | 1 | Q_OBUF
+ATTRIBUTES | 8684291 | 0
+INPUTS | 2 | Reset  | D
+INPUTP | 2 | 42 | 45
+EQ | 2 | 
+   Q.D = !Reset & D;
+   Q.CLK = clk;	// GCK
+GLOBALS | 1 | 2 | clk
+
+PIN | Reset | 64 | 0 | N/A | 42 | 1 | 1 | 1
+PIN | clk | 4096 | 0 | N/A | 10 | 1 | 1 | 1
+PIN | D | 64 | 0 | N/A | 45 | 1 | 1 | 1
+PIN | Q | 536871040 | 0 | N/A | 5
