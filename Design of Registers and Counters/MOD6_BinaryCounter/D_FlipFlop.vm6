@@ -1,0 +1,79 @@
+NDS Database:  version M.53d
+
+NDS_INFO | xa9500xl | A9536XL44VQ | XA9536XL-15-VQ44
+
+DEVICE | A9536XL | A9536XL44VQ | 
+
+NETWORK | D_FlipFlop | 0 | 0 | 16793607
+
+INPUT_INSTANCE | 0 | 0 | NULL | Reset_IBUF | D_FlipFlop_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Reset | 71 | PI | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Reset_IBUF | 66 | ? | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | clk_IBUF | D_FlipFlop_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | clk | 72 | PI | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | FCLKIO_0 | 67 | ? | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | D_IBUF | D_FlipFlop_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | D | 73 | PI | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | D_IBUF | 68 | ? | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | D_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | LowPow+PrldLow+OptxMapped | Q_OBUF | D_FlipFlop_COPY_0_COPY_0 | 2155873281 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Reset_IBUF | 66 | ? | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D_IBUF | 68 | ? | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | D_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 67 | ? | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Q_OBUF | 69 | ? | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | Q_OBUF.Q | Q_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Q_OBUF.SI | Q_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Reset_IBUF | 66 | ? | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D_IBUF | 68 | ? | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | D_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Q_OBUF.D1 | 75 | ? | 0 | 4096 | Q_OBUF | NULL | NULL | Q_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Q_OBUF.D2 | 76 | ? | 0 | 4096 | Q_OBUF | NULL | NULL | Q_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | Reset_IBUF | IV_TRUE | D_IBUF
+
+SRFF_INSTANCE | Q_OBUF.REG | Q_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Q_OBUF.D | 74 | ? | 0 | 0 | Q_OBUF | NULL | NULL | Q_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 67 | ? | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Q_OBUF.Q | 77 | ? | 0 | 0 | Q_OBUF | NULL | NULL | Q_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | Q | D_FlipFlop_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Q_OBUF | 69 | ? | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | Q_OBUF.Q | Q_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Q | 70 | PO | 0 | 0 | D_FlipFlop_COPY_0_COPY_0 | NULL | NULL | Q | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | D_FlipFlop_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 3 | NULL | 0 | clk_IBUF | 1 | NULL | 0 | 43 | 57344
+
+FB_INSTANCE | FOOBAR2_ | D_FlipFlop_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | Q_OBUF | 1 | NULL | 0 | Q | 1 | 38 | 49152
+FBPIN | 8 | NULL | 0 | D_IBUF | 1 | NULL | 0 | 31 | 49152
+FBPIN | 11 | NULL | 0 | Reset_IBUF | 1 | NULL | 0 | 28 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | D_FlipFlop_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 3 | Reset | 28 | 44 | D | 31
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | -1 | 39 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 38 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+GLOBAL_FCLK | clk | 0 | 0
