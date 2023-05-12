@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "N:/Coa/lab 7/Serial_in_out_shift_register/Serial_in_serial_out.xst" -ofn "N:/Coa/lab 7/Serial_in_out_shift_register/Serial_in_serial_out.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "Serial_in_serial_out.ngc" Serial_in_serial_out.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper Serial_in_serial_out.ngd 
+XSLTProcess Serial_in_serial_out_build.xml 
+tsim -intstyle ise Serial_in_serial_out Serial_in_serial_out.nga 
+taengine -intstyle ise -f Serial_in_serial_out -w --format html1 -l Serial_in_serial_out_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n Serial_in_serial_out -i Serial_in_serial_out 

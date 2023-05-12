@@ -1,0 +1,3 @@
+vhdl work "D_FlipFlop.vhd"
+vhdl work "Serial_in_serial_out.vhd"
+vhdl work "SISO_test.vhd"

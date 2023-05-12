@@ -1,0 +1,177 @@
+NDS Database:  version M.53d
+
+NDS_INFO | xa9500xl | A9536XL44VQ | XA9536XL-15-VQ44
+
+DEVICE | A9536XL | A9536XL44VQ | 
+
+NETWORK | Serial_in_serial_out | 0 | 0 | 16793607
+
+INPUT_INSTANCE | 0 | 0 | NULL | Reset_IBUF | Serial_in_serial_out_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Reset | 224 | PI | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | Reset_IBUF | 216 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | clk_IBUF | Serial_in_serial_out_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | clk | 225 | PI | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | FCLKIO_0 | 217 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | D_IBUF | Serial_in_serial_out_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | D | 226 | PI | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | D_IBUF | 218 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | D_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | LowPow+PrldLow+OptxMapped | S1 | Serial_in_serial_out_COPY_0_COPY_0 | 2155873281 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Reset_IBUF | 216 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D_IBUF | 218 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | D_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 217 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | S1 | 219 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | S1.Q | S1 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | S1.SI | S1 | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Reset_IBUF | 216 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | D_IBUF | 218 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | D_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | S1.D1 | 228 | ? | 0 | 4096 | S1 | NULL | NULL | S1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | S1.D2 | 229 | ? | 0 | 4096 | S1 | NULL | NULL | S1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | Reset_IBUF | IV_TRUE | D_IBUF
+
+SRFF_INSTANCE | S1.REG | S1 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | S1.D | 227 | ? | 0 | 0 | S1 | NULL | NULL | S1.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 217 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | S1.Q | 230 | ? | 0 | 0 | S1 | NULL | NULL | S1.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+PrldLow+OptxMapped | S2 | Serial_in_serial_out_COPY_0_COPY_0 | 2155873281 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Reset_IBUF | 216 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | S1 | 219 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | S1.Q | S1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 217 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | S2 | 220 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | S2.Q | S2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | S2.SI | S2 | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Reset_IBUF | 216 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | S1 | 219 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | S1.Q | S1 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | S2.D1 | 232 | ? | 0 | 4096 | S2 | NULL | NULL | S2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | S2.D2 | 233 | ? | 0 | 4096 | S2 | NULL | NULL | S2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | Reset_IBUF | IV_TRUE | S1
+
+SRFF_INSTANCE | S2.REG | S2 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | S2.D | 231 | ? | 0 | 0 | S2 | NULL | NULL | S2.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 217 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | S2.Q | 234 | ? | 0 | 0 | S2 | NULL | NULL | S2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+PrldLow+OptxMapped | S3 | Serial_in_serial_out_COPY_0_COPY_0 | 2155873281 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Reset_IBUF | 216 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | S2 | 220 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | S2.Q | S2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 217 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | S3 | 221 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | S3.Q | S3 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | S3.SI | S3 | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Reset_IBUF | 216 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | S2 | 220 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | S2.Q | S2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | S3.D1 | 236 | ? | 0 | 4096 | S3 | NULL | NULL | S3.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | S3.D2 | 237 | ? | 0 | 4096 | S3 | NULL | NULL | S3.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | Reset_IBUF | IV_TRUE | S2
+
+SRFF_INSTANCE | S3.REG | S3 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | S3.D | 235 | ? | 0 | 0 | S3 | NULL | NULL | S3.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 217 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | S3.Q | 238 | ? | 0 | 0 | S3 | NULL | NULL | S3.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | LowPow+PrldLow+OptxMapped | O_OBUF | Serial_in_serial_out_COPY_0_COPY_0 | 2155873281 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Reset_IBUF | 216 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | S3 | 221 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | S3.Q | S3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 217 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | O_OBUF | 222 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | O_OBUF.Q | O_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | O_OBUF.SI | O_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Reset_IBUF | 216 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | Reset_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | S3 | 221 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | S3.Q | S3 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | O_OBUF.D1 | 240 | ? | 0 | 4096 | O_OBUF | NULL | NULL | O_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | O_OBUF.D2 | 241 | ? | 0 | 4096 | O_OBUF | NULL | NULL | O_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | Reset_IBUF | IV_TRUE | S3
+
+SRFF_INSTANCE | O_OBUF.REG | O_OBUF | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | O_OBUF.D | 239 | ? | 0 | 0 | O_OBUF | NULL | NULL | O_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 217 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | O_OBUF.Q | 242 | ? | 0 | 0 | O_OBUF | NULL | NULL | O_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | O | Serial_in_serial_out_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | O_OBUF | 222 | ? | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | O_OBUF.Q | O_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | O | 223 | PO | 0 | 0 | Serial_in_serial_out_COPY_0_COPY_0 | NULL | NULL | O | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | Serial_in_serial_out_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 3 | NULL | 0 | clk_IBUF | 1 | NULL | 0 | 43 | 57344
+FBPIN | 17 | S3 | 1 | NULL | 0 | NULL | 0 | 18 | 49152
+FBPIN | 18 | S2 | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | Serial_in_serial_out_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | O_OBUF | 1 | NULL | 0 | O | 1 | 38 | 49152
+FBPIN | 8 | NULL | 0 | Reset_IBUF | 1 | NULL | 0 | 31 | 49152
+FBPIN | 11 | NULL | 0 | D_IBUF | 1 | NULL | 0 | 28 | 49152
+FBPIN | 18 | S1 | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | Serial_in_serial_out_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 28 | S2 | NULL | 38 | S1 | NULL | 44 | Reset | 31
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 17 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 35 | -1 | -1 | -1 | -1 | -1 | 38 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 3 | D | 28 | 31 | S3 | NULL | 44 | Reset | 31
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | -1 | 39 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 16 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 38 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+GLOBAL_FCLK | clk | 0 | 0

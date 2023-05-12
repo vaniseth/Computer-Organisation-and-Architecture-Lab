@@ -1,0 +1,15 @@
+V3 7
+FL "//fileserver1/201b299/Coa/lab 7/Serial_in_out_shift_register/D_FlipFlop.vhd" 2023/05/02.14:30:34 M.53d
+EN work/D_FlipFlop 1683018908 \
+      FL "//fileserver1/201b299/Coa/lab 7/Serial_in_out_shift_register/D_FlipFlop.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/D_FlipFlop/Behavioral 1683018909 \
+      FL "//fileserver1/201b299/Coa/lab 7/Serial_in_out_shift_register/D_FlipFlop.vhd" \
+      EN work/D_FlipFlop 1683018908
+FL "//fileserver1/201b299/Coa/lab 7/Serial_in_out_shift_register/Serial_in_serial_out.vhd" 2023/05/02.14:45:08 M.53d
+EN work/Serial_in_serial_out 1683018910 \
+      FL "//fileserver1/201b299/Coa/lab 7/Serial_in_out_shift_register/Serial_in_serial_out.vhd" \
+      PB ieee/std_logic_1164 1270894585
+AR work/Serial_in_serial_out/Behavioral 1683018911 \
+      FL "//fileserver1/201b299/Coa/lab 7/Serial_in_out_shift_register/Serial_in_serial_out.vhd" \
+      EN work/Serial_in_serial_out 1683018910 CP D_FlipFlop

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Serial_in_out_shift_register.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="D_FlipFlop.bld"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="D_FlipFlop.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="D_FlipFlop.jed"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="D_FlipFlop.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="D_FlipFlop.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="D_FlipFlop.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="D_FlipFlop.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="D_FlipFlop.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="D_FlipFlop.pnx"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="D_FlipFlop.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="D_FlipFlop.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="D_FlipFlop.xml"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="D_FlipFlop_build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="D_FlipFlop_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="D_FlipFlop_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="D_FlipFlop_pad.csv"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SISO_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SISO_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SISO_test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SISO_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Serial_in_serial_out.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Serial_in_serial_out.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="Serial_in_serial_out.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="Serial_in_serial_out.jed"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Serial_in_serial_out.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="Serial_in_serial_out.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="Serial_in_serial_out.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Serial_in_serial_out.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Serial_in_serial_out.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Serial_in_serial_out.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Serial_in_serial_out.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="Serial_in_serial_out.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Serial_in_serial_out.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Serial_in_serial_out.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Serial_in_serial_out.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Serial_in_serial_out.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="Serial_in_serial_out.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Serial_in_serial_out.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Serial_in_serial_out.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Serial_in_serial_out_build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="Serial_in_serial_out_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Serial_in_serial_out_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Serial_in_serial_out_pad.csv"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Serial_in_serial_out_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Serial_in_serial_out_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1683019083" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1683019083">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1683019841" xil_pn:in_ck="7024131408796181944" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1683019841">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="D_FlipFlop.vhd"/>
+      <outfile xil_pn:name="SISO_test.vhd"/>
+      <outfile xil_pn:name="Serial_in_serial_out.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1683019250" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5440696628617351837" xil_pn:start_ts="1683019250">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1683019841" xil_pn:in_ck="7024131408796181944" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1683019841">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="D_FlipFlop.vhd"/>
+      <outfile xil_pn:name="SISO_test.vhd"/>
+      <outfile xil_pn:name="Serial_in_serial_out.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1683019843" xil_pn:in_ck="7024131408796181944" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7095803227876252414" xil_pn:start_ts="1683019841">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SISO_test_beh.prj"/>
+      <outfile xil_pn:name="SISO_test_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1683019843" xil_pn:in_ck="-8481543349531656276" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1473408276470099631" xil_pn:start_ts="1683019843">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SISO_test_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1683018034" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1683018034">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1683018908" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6817211453379031879" xil_pn:start_ts="1683018908">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1683018911" xil_pn:in_ck="-7146061409582618069" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="8102503816083170179" xil_pn:start_ts="1683018908">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="D_FlipFlop.ngr"/>
+      <outfile xil_pn:name="Serial_in_serial_out.cmd_log"/>
+      <outfile xil_pn:name="Serial_in_serial_out.lso"/>
+      <outfile xil_pn:name="Serial_in_serial_out.ngc"/>
+      <outfile xil_pn:name="Serial_in_serial_out.ngr"/>
+      <outfile xil_pn:name="Serial_in_serial_out.prj"/>
+      <outfile xil_pn:name="Serial_in_serial_out.stx"/>
+      <outfile xil_pn:name="Serial_in_serial_out.syr"/>
+      <outfile xil_pn:name="Serial_in_serial_out.xst"/>
+      <outfile xil_pn:name="Serial_in_serial_out_vhdl.prj"/>
+      <outfile xil_pn:name="Serial_in_serial_out_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1683018911" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="511669248165821988" xil_pn:start_ts="1683018911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1683018913" xil_pn:in_ck="-3324881853311839214" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="8764765336521535190" xil_pn:start_ts="1683018911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Serial_in_serial_out.bld"/>
+      <outfile xil_pn:name="Serial_in_serial_out.cmd_log"/>
+      <outfile xil_pn:name="Serial_in_serial_out.ngd"/>
+      <outfile xil_pn:name="Serial_in_serial_out_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="xlnx_auto_0_xdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1683018924" xil_pn:in_ck="-3324881853311839213" xil_pn:name="TRANEXT_vm6File_xa9500xl" xil_pn:prop_ck="4528337403636981663" xil_pn:start_ts="1683018913">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Serial_in_serial_out.gyd"/>
+      <outfile xil_pn:name="Serial_in_serial_out.mfd"/>
+      <outfile xil_pn:name="Serial_in_serial_out.nga"/>
+      <outfile xil_pn:name="Serial_in_serial_out.pad"/>
+      <outfile xil_pn:name="Serial_in_serial_out.pnx"/>
+      <outfile xil_pn:name="Serial_in_serial_out.rpt"/>
+      <outfile xil_pn:name="Serial_in_serial_out.vm6"/>
+      <outfile xil_pn:name="Serial_in_serial_out.xml"/>
+      <outfile xil_pn:name="Serial_in_serial_out_build.xml"/>
+      <outfile xil_pn:name="Serial_in_serial_out_html"/>
+      <outfile xil_pn:name="Serial_in_serial_out_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1683018926" xil_pn:in_ck="-3324881853311830349" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="1356632172457111969" xil_pn:start_ts="1683018924">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Serial_in_serial_out.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1683018924" xil_pn:in_ck="-3324881853311830349" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1683018923">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+  </transforms>
+
+</generated_project>

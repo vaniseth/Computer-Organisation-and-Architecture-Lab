@@ -1,0 +1,20 @@
+Running: C:\Xilinx\12.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o N:/Coa/lab 7/Serial_in_out_shift_register/SISO_test_isim_beh.exe -prj N:/Coa/lab 7/Serial_in_out_shift_register/SISO_test_beh.prj work.SISO_test 
+ISim M.53d (signature 0x7dea747)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "N:/Coa/lab 7/Serial_in_out_shift_register/D_FlipFlop.vhd" into library work
+Parsing VHDL file "N:/Coa/lab 7/Serial_in_out_shift_register/Serial_in_serial_out.vhd" into library work
+Parsing VHDL file "N:/Coa/lab 7/Serial_in_out_shift_register/SISO_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Compiling architecture behavioral of entity d_flipflop [d_flipflop_default]
+Compiling architecture behavioral of entity serial_in_serial_out [serial_in_serial_out_default]
+Compiling architecture behavior of entity siso_test
+Time Resolution for simulation is 1ps.
+Compiled 7 VHDL Units
+Built simulation executable N:/Coa/lab 7/Serial_in_out_shift_register/SISO_test_isim_beh.exe
+Fuse Memory Usage: 18892 KB
+Fuse CPU Usage: 77 ms

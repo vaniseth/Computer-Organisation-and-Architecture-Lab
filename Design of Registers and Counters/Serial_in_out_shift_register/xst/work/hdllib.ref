@@ -1,0 +1,4 @@
+EN d_flipflop NULL "//fileserver1/201b299/Coa/lab 7/Serial_in_out_shift_register/D_FlipFlop.vhd" sub00/vhpl00 1683018908
+AR serial_in_serial_out behavioral "//fileserver1/201b299/Coa/lab 7/Serial_in_out_shift_register/Serial_in_serial_out.vhd" sub00/vhpl03 1683018911
+AR d_flipflop behavioral "//fileserver1/201b299/Coa/lab 7/Serial_in_out_shift_register/D_FlipFlop.vhd" sub00/vhpl01 1683018909
+EN serial_in_serial_out NULL "//fileserver1/201b299/Coa/lab 7/Serial_in_out_shift_register/Serial_in_serial_out.vhd" sub00/vhpl02 1683018910
